@@ -1,0 +1,199 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[
+  12pt,                        % フォントサイズ
+  openany,                     % 省の始まりを奇数ページに限定しない
+%  draft,                       % 下書き用 画像を読み込まないのでタイプセットが早く済む
+]{jsbook}
+
+%====================================================================================================
+%===== use package
+\usepackage[dvipdfmx]{graphicx}% figure環境：\begin{figure}
+\usepackage[top=20mm, bottom=25mm, left=20mm, right=20mm]{geometry}
+                               % 余白の設定
+\usepackage{amsmath,amssymb}   % 数式環境：\begin{align}
+% \usepackage{bm}                % 太字かつイタリックでベクトルを表現：\bm{} 
+% \usepackage{lscape}            % 本文を横向きに配置：\begin{landscape}
+% \usepackage{ascmac}            % 罫線付きテキスト：\begin{screen}, \begin{itembox}, ...
+% \usepackage{fancybox}          % 罫線付きテキスト：\doublebox{}, \ovalbox{}, ...
+\usepackage{fancyhdr}          % fancy header環境
+% \usepackage{mediabb}           % \includegraphycsでpdfを読み込む, pngとかが読めなくなる副作用あり
+% \usepackage{longtable}         % 頁をまたぐ表の作成
+% \usepackage{multirow}          % 表のセルを縦に結合
+\usepackage[dvipdfmx,          % PDF環境
+ bookmarks        =true,       % 目次の作成するか
+ bookmarksnumbered=false,      % 節を目次に載せるか
+ bookmarkstype    =toc,        % tocはデフォルト
+ bookmarksopen    =true,       % ツリー状の目次
+ hidelinks,                    % リンクに色や枠をつけない
+ colorlinks       =false,      % リンクをカラー表記にするか
+ linkbordercolor  ={1 1 0},    % リンクを囲む罫線の色
+ citebordercolor  ={0 1 1},    % 参考文献のリンクの色
+ urlbordercolor   ={1 0 1},    % URLのリンクの色
+ pdfstartview     ={FitH -32768},
+                               % PDFを開いた時のビューの初期値
+ pdftitle         ={修士論文},
+                               % PDF Title
+ pdfsubject       ={九州大学大学院 理学府 物理学専攻 粒子物理学分野 素粒子実験研究室 xxxx年度 修士論文},
+                               % PDF Subject
+ pdfauthor        ={},% PDF Author
+ pdfkeywords      ={}          % PDF Keywords
+ pdfborder        ={1 1 1},    % PDFのリンクの幅
+]{hyperref}                    % ハイパーリンクの使用
+\usepackage{pxjahyper}         % pdfで日本語目次を使用
+\usepackage{url}               % URL環境：\url{}
+\usepackage{dcolumn}           % 表中の任意の位置で揃える D{.}{.}{-1}
+\usepackage{mathcomp}          % °=\tcdegree, ℃ = \tccelsius
+\usepackage{subcaption}        % 図1.1(a), (b)のように図を並べられる。
+% \usepackage{color}             % 文字に色を付けるためのパッケージ
+% \usepackage{mathtools}         % \begin{matrix*}[l]で行列要素を左寄せが可能
+
+%===================================================================================================
+%===== set length
+\setlength { \textheight } { 37 \baselineskip }
+\setlength { \textwidth } { \fullwidth }
+\setcounter{tocdepth}{3}
+
+%====================================================================================================
+%===== set header
+\pagestyle{fancy} 
+\fancyhead{}
+\fancyhead[LO,LE]{\leftmark}
+\fancyhead[RO,RE]{\rightmark}
+\cfoot{\thepage}
+
+%====================================================================================================
+%===== new parameter, new command
+\newif\ifabstract
+%\newcounter{footnotecounter}
+%\setcounter{footnotecounter}{1}
+
+\makeatletter
+\def\fiscalyear#1{\def\@fiscalyear{#1}} % 年度
+\def\supervisor#1{\def\@supervisor{#1}} % 指導教員
+\def\university#1{\def\@university{#1}} % 大学
+\def\department#1{\def\@department{#1}} % 所属学部/学府
+\def\labolatory#1{\def\@laboratory{#1}} % 所属研究室
+
+\newcommand{\maketitlepage}{% 回覧版/製本版のタイトル
+ \begin{titlepage}
+  \begin{center}
+   {\Large \@fiscalyear{}年度 修士論文}   \\ 
+   \vspace*{125pt}
+   {\Large \@title{}}                     \\[11pt]
+   {\large \@university{} \@department{}} \\
+   {\large \@laboratory{}}                \\[15pt]
+   \vspace{40pt}
+   {\large \@author{}}                    \\[1ex]
+   {\large 指導教員\ \@supervisor{}}      \\[1em]
+   \@date{}                               \\
+   \vspace{100pt}
+   \includegraphics[width=3cm]{./Figure/Introduction/KyushuUniversityLogo.eps}
+  \end{center}
+ \end{titlepage}
+}
+\renewcommand{\maketitle}{% 修論概要提出時のタイトル
+ \thispagestyle{empty}
+ \begin{center}
+  {\Large \@title{}}            \\
+  \@university{} \@department{} \\
+  \@laboratory{}                \\
+  \@author{}                    \\[1ex]
+  指導教員\ \@supervisor{}      \\
+  \mbox{}                       \\
+ \end{center}
+}
+\makeatother
+
+% ベクトル演算子の定義
+% \newcommand{\divergence}{\mathrm{div}\,}
+% \newcommand{\grad}{\mathrm{grad}\,}
+% \newcommand{\rot}{\mathrm{rot}\,}
+
+% 空白ページの挿入
+\newcommand{\blackpage}{\newpage\thispagestyle{empty}\mbox{}\newpage}
+
+% 目次の生成
+\newcommand{\makeindexpage}{
+ \tableofcontents
+ \listoffigures
+ \listoftables
+}
+
+% ヘッダに表示する項目
+\renewcommand{\headfont}{\bfseries}
+\renewcommand{\chaptermark}[1]{\markboth{第\ \thechapter\ 章~#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ \ #1}{}}
+
+%====================================================================================================
+%===== タイトルのパラメータ
+\fiscalyear{2022}
+\title     {電子陽電子ヒッグスファクトリーのための\\ジェット測定技術の研究}
+\author    {尾上\ 友紀}
+\supervisor{末原\ 大幹\ 川越\ 清以}
+\university{九州大学大学院}
+\department{理学府 物理学専攻}
+\labolatory{粒子物理学分野 素粒子実験研究室}
+\date      {\today}
+
+%====================================================================================================
+%===== 概要提出時は「\abstracttrue」
+%===== 回覧版/製本版は「\abstractfalse」
+\abstractfalse
+
+%====================================================================================================
+%===== begin document
+\begin{document}
+\pagestyle{headings}
+
+%----------------------------------------------------------------------------------------------------
+%----- タイトル
+\ifabstract\else
+ \maketitlepage
+ \blackpage
+\fi
+
+%----------------------------------------------------------------------------------------------------
+%----- 概要
+\include{Chapter/Abstract}
+
+%----------------------------------------------------------------------------------------------------
+%----- 目次
+\ifabstract\else
+ \blackpage
+ \makeindexpage
+\fi
+
+%----------------------------------------------------------------------------------------------------
+%----- 本章
+\ifabstract\else
+ \include{Chapter/1.Introduction}
+ \include{Chapter/2.Siwecal}
+ \include{Chapter/3.Beamtest}
+ \include{Chapter/4.Deeplearning}
+ \include{Chapter/5.Flavortagging}
+ \include{Chapter/6.Conclusion}
+\fi
+
+%----------------------------------------------------------------------------------------------------
+%----- 付録
+\ifabstract\else
+ \appendix
+ \include{Chapter/Appendix/7.AppendixA}
+\fi
+
+%----------------------------------------------------------------------------------------------------
+%----- 謝辞
+\ifabstract\else
+ \include{Chapter/8.Acknowledgement}
+\fi
+
+%----------------------------------------------------------------------------------------------------
+%----- 参考文献
+\ifabstract\else
+ \bibliographystyle{Bibliography/h-physrev3.bst}
+ \bibliography{Bibliography/Bibliography}
+\fi
+
+\end{document}
+%===== end document
+%====================================================================================================

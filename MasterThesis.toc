@@ -1,0 +1,75 @@
+\contentsline {chapter}{\numberline {第1章}序論}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}素粒子標準理論}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}国際リニアコライダー計画: ILC}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.3}ILCの物理}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}新物理探索}{11}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}ILCにおける検出器}{11}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Particle Flow Algorithm: PFA}{11}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}International Large Detector: ILD}{11}{subsection.1.4.2}%
+\contentsline {subsubsection}{飛跡検出器}{11}{section*.5}%
+\contentsline {subsubsection}{電磁カロリメータ}{11}{section*.6}%
+\contentsline {subsubsection}{ハドロンカロリメータ}{11}{section*.7}%
+\contentsline {subsubsection}{ミューオン検出器}{11}{section*.8}%
+\contentsline {section}{\numberline {1.5}ILCにおける物理解析}{11}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}事象再構成}{11}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}本研究の目的}{11}{section.1.6}%
+\contentsline {chapter}{\numberline {第2章}シリコンタングステン電磁カロリメータ}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}入射粒子と物質の相互作用}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}荷電粒子}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}光子}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}ハドロン}{13}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}シリコンタングステン電磁カロリメータ SiW-ECAL}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}電磁カロリメータ}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}シリコン半導体検出器}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}SiW-ECALの構造}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}読み出しシステム}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}SKIROC2A}{13}{subsection.2.3.1}%
+\contentsline {subsubsection}{Fast shaper}{13}{section*.9}%
+\contentsline {subsubsection}{Slow shaper}{13}{section*.10}%
+\contentsline {subsection}{\numberline {2.3.2}FPGA}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}多層読み出しモジュール}{13}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}技術プロトタイプ}{13}{section.2.4}%
+\contentsline {chapter}{\numberline {第3章}ビームテストによる評価実験}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}CERN SPS}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}実験セットアップ}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}測定機器のセットアップ}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}EUDAQによる信号読み出し}{14}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}実験結果}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}検出器応答}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}ペデスタル}{14}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}スクエアイベント}{14}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}まとめと考察}{14}{section.3.4}%
+\contentsline {chapter}{\numberline {第4章}深層学習}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}パーセプトロン}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}パーセプトロン}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}多層パーセプトロン}{15}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}ニューラルネットワーク}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}活性化関数}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}誤差逆伝播法}{15}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}バッチ処理}{15}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}最適化}{15}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}ディープニューラルネットワーク}{15}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}グラフニューラルネットワーク}{15}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Graph Convolution Network (GCN)}{15}{subsection.4.3.1}%
+\contentsline {subsubsection}{Spectral Graph Convolution}{15}{section*.11}%
+\contentsline {subsubsection}{Spatial Graph Convolution}{15}{section*.12}%
+\contentsline {subsection}{\numberline {4.3.2}Graph Attention Network (GAT)}{15}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}グラフニューラルネットワークの応用}{15}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {第5章}深層学習を用いたジェットフレーバー識別}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ジェットフレーバー識別アルゴリズム}{17}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}事象再構成}{17}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}イベントサンプル}{17}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}前処理}{17}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}ディープニューラルネットワークによる実装}{17}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}ネットワークの構造}{17}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}ハイパーパラメータの最適化}{17}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}学習結果}{17}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}グラフニューラルネットワークによる実装}{17}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}飛跡によるグラフデータセット}{17}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}ネットワークの構造}{17}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}ハイパーパラメータの最適化}{17}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}学習結果}{17}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}LCFIPlusとの比較}{17}{section.5.5}%
+\contentsline {section}{\numberline {5.6}まとめと今後の展望}{17}{section.5.6}%
+\contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{18}{chapter.6}%
+\contentsline {chapter}{\numberline {付録A}付録A}{19}{appendix.A}%
