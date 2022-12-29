@@ -33,7 +33,7 @@
                                % PDFを開いた時のビューの初期値
  pdftitle         ={修士論文},
                                % PDF Title
- pdfsubject       ={九州大学大学院 理学府 物理学専攻 粒子物理学分野 素粒子実験研究室 xxxx年度 修士論文},
+ pdfsubject       ={九州大学大学院 理学府 物理学専攻 粒子物理学分野 素粒子実験研究室 20年度 修士論文},
                                % PDF Subject
  pdfauthor        ={},% PDF Author
  pdfkeywords      ={}          % PDF Keywords
@@ -46,6 +46,12 @@
 \usepackage{subcaption}        % 図1.1(a), (b)のように図を並べられる。
 % \usepackage{color}             % 文字に色を付けるためのパッケージ
 % \usepackage{mathtools}         % \begin{matrix*}[l]で行列要素を左寄せが可能
+\usepackage{here}		%大文字のHを使用することで好きな位置に図を配置
+%図+表を並べて表示
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
 
 %===================================================================================================
 %===== set length
