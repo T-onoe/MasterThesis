@@ -1,6 +1,6 @@
 %このファイルは日本語文字を含みます.
 \BOOKMARK [0][]{chapter.1}{序論}{}% 1
-\BOOKMARK [1][]{section.1.1}{素粒子標準理論}{chapter.1}% 2
+\BOOKMARK [1][]{section.1.1}{素粒子標準模型}{chapter.1}% 2
 \BOOKMARK [1][]{section.1.2}{国際リニアコライダー計画: ILC}{chapter.1}% 3
 \BOOKMARK [1][]{section.1.3}{ILCの物理}{chapter.1}% 4
 \BOOKMARK [2][]{subsection.1.3.1}{ヒッグス粒子の精密測定}{section.1.3}% 5
@@ -20,65 +20,68 @@
 \BOOKMARK [3][]{section*.17}{Particle Flow Algorithm: PFA}{subsection.1.5.2}% 19
 \BOOKMARK [3][]{section*.19}{飛跡再構成}{subsection.1.5.2}% 20
 \BOOKMARK [3][]{section*.20}{崩壊点検出}{subsection.1.5.2}% 21
-\BOOKMARK [2][]{subsection.1.5.3}{ジェットクラスタリング}{section.1.5}% 22
-\BOOKMARK [2][]{subsection.1.5.4}{フレーバー識別}{section.1.5}% 23
+\BOOKMARK [3][]{section*.21}{ジェットクラスタリング}{subsection.1.5.2}% 22
+\BOOKMARK [3][]{section*.22}{フレーバー識別}{subsection.1.5.2}% 23
 \BOOKMARK [1][]{section.1.6}{本研究の目的}{chapter.1}% 24
 \BOOKMARK [0][]{chapter.2}{シリコンタングステン電磁カロリメータ}{}% 25
 \BOOKMARK [1][]{section.2.1}{入射粒子と物質の相互作用}{chapter.2}% 26
 \BOOKMARK [2][]{subsection.2.1.1}{荷電粒子}{section.2.1}% 27
-\BOOKMARK [2][]{subsection.2.1.2}{光子}{section.2.1}% 28
-\BOOKMARK [2][]{subsection.2.1.3}{ハドロン}{section.2.1}% 29
-\BOOKMARK [1][]{section.2.2}{シリコンタングステン電磁カロリメータ SiW-ECAL}{chapter.2}% 30
-\BOOKMARK [2][]{subsection.2.2.1}{シリコン半導体検出器}{section.2.2}% 31
-\BOOKMARK [2][]{subsection.2.2.2}{SiW-ECALの構造}{section.2.2}% 32
-\BOOKMARK [1][]{section.2.3}{読み出しシステム}{chapter.2}% 33
-\BOOKMARK [2][]{subsection.2.3.1}{SKIROC2A}{section.2.3}% 34
-\BOOKMARK [3][]{section*.21}{Fast shaper}{subsection.2.3.1}% 35
-\BOOKMARK [3][]{section*.22}{Slow shaper}{subsection.2.3.1}% 36
-\BOOKMARK [2][]{subsection.2.3.2}{FPGA}{section.2.3}% 37
-\BOOKMARK [2][]{subsection.2.3.3}{多層読み出しモジュール}{section.2.3}% 38
-\BOOKMARK [1][]{section.2.4}{技術プロトタイプ}{chapter.2}% 39
-\BOOKMARK [0][]{chapter.3}{ビームテストによる評価実験}{}% 40
-\BOOKMARK [1][]{section.3.1}{CERN SPS}{chapter.3}% 41
-\BOOKMARK [1][]{section.3.2}{実験セットアップ}{chapter.3}% 42
-\BOOKMARK [2][]{subsection.3.2.1}{測定機器のセットアップ}{section.3.2}% 43
-\BOOKMARK [2][]{subsection.3.2.2}{EUDAQによる信号読み出し}{section.3.2}% 44
-\BOOKMARK [1][]{section.3.3}{実験結果}{chapter.3}% 45
-\BOOKMARK [2][]{subsection.3.3.1}{検出器応答}{section.3.3}% 46
-\BOOKMARK [2][]{subsection.3.3.2}{ペデスタル}{section.3.3}% 47
-\BOOKMARK [2][]{subsection.3.3.3}{スクエアイベント}{section.3.3}% 48
-\BOOKMARK [1][]{section.3.4}{まとめと考察}{chapter.3}% 49
-\BOOKMARK [0][]{chapter.4}{深層学習}{}% 50
-\BOOKMARK [1][]{section.4.1}{パーセプトロン}{chapter.4}% 51
-\BOOKMARK [2][]{subsection.4.1.1}{パーセプトロン}{section.4.1}% 52
-\BOOKMARK [2][]{subsection.4.1.2}{多層パーセプトロン}{section.4.1}% 53
-\BOOKMARK [1][]{section.4.2}{ニューラルネットワーク}{chapter.4}% 54
-\BOOKMARK [2][]{subsection.4.2.1}{活性化関数}{section.4.2}% 55
-\BOOKMARK [2][]{subsection.4.2.2}{誤差逆伝播法}{section.4.2}% 56
-\BOOKMARK [2][]{subsection.4.2.3}{バッチ処理}{section.4.2}% 57
-\BOOKMARK [2][]{subsection.4.2.4}{最適化}{section.4.2}% 58
-\BOOKMARK [2][]{subsection.4.2.5}{ディープニューラルネットワーク}{section.4.2}% 59
-\BOOKMARK [1][]{section.4.3}{グラフニューラルネットワーク}{chapter.4}% 60
-\BOOKMARK [2][]{subsection.4.3.1}{Graph Convolution Network \(GCN\)}{section.4.3}% 61
-\BOOKMARK [3][]{section*.23}{Spectral Graph Convolution}{subsection.4.3.1}% 62
-\BOOKMARK [3][]{section*.24}{Spatial Graph Convolution}{subsection.4.3.1}% 63
-\BOOKMARK [2][]{subsection.4.3.2}{Graph Attention Network \(GAT\)}{section.4.3}% 64
-\BOOKMARK [2][]{subsection.4.3.3}{グラフニューラルネットワークの応用}{section.4.3}% 65
-\BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 66
-\BOOKMARK [1][]{section.5.1}{ジェットフレーバー識別アルゴリズム}{chapter.5}% 67
-\BOOKMARK [2][]{subsection.5.1.1}{事象再構成}{section.5.1}% 68
-\BOOKMARK [1][]{section.5.2}{イベントサンプル}{chapter.5}% 69
-\BOOKMARK [2][]{subsection.5.2.1}{前処理}{section.5.2}% 70
-\BOOKMARK [1][]{section.5.3}{ディープニューラルネットワークによる実装}{chapter.5}% 71
-\BOOKMARK [2][]{subsection.5.3.1}{ネットワークの構造}{section.5.3}% 72
-\BOOKMARK [2][]{subsection.5.3.2}{ハイパーパラメータの最適化}{section.5.3}% 73
-\BOOKMARK [2][]{subsection.5.3.3}{学習結果}{section.5.3}% 74
-\BOOKMARK [1][]{section.5.4}{グラフニューラルネットワークによる実装}{chapter.5}% 75
-\BOOKMARK [2][]{subsection.5.4.1}{飛跡によるグラフデータセット}{section.5.4}% 76
-\BOOKMARK [2][]{subsection.5.4.2}{ネットワークの構造}{section.5.4}% 77
-\BOOKMARK [2][]{subsection.5.4.3}{ハイパーパラメータの最適化}{section.5.4}% 78
-\BOOKMARK [2][]{subsection.5.4.4}{学習結果}{section.5.4}% 79
-\BOOKMARK [1][]{section.5.5}{LCFIPlusとの比較}{chapter.5}% 80
-\BOOKMARK [1][]{section.5.6}{まとめと今後の展望}{chapter.5}% 81
-\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 82
-\BOOKMARK [0][]{appendix.A}{付録A}{}% 83
+\BOOKMARK [3][]{section*.23}{電離損失}{subsection.2.1.1}% 28
+\BOOKMARK [3][]{section*.26}{制動放射}{subsection.2.1.1}% 29
+\BOOKMARK [2][]{subsection.2.1.2}{光子}{section.2.1}% 30
+\BOOKMARK [2][]{subsection.2.1.3}{ハドロン}{section.2.1}% 31
+\BOOKMARK [1][]{section.2.2}{粒子検出器の動作原理}{chapter.2}% 32
+\BOOKMARK [2][]{subsection.2.2.1}{ガス検出器}{section.2.2}% 33
+\BOOKMARK [2][]{subsection.2.2.2}{半導体検出器}{section.2.2}% 34
+\BOOKMARK [2][]{subsection.2.2.3}{シンチレーション検出器}{section.2.2}% 35
+\BOOKMARK [1][]{section.2.3}{シリコンタングステン電磁カロリメータ SiW-ECAL}{chapter.2}% 36
+\BOOKMARK [2][]{subsection.2.3.1}{SiW-ECALの全体構造}{section.2.3}% 37
+\BOOKMARK [2][]{subsection.2.3.2}{シリコン半導体検出器}{section.2.3}% 38
+\BOOKMARK [2][]{subsection.2.3.3}{読み出しシステム}{section.2.3}% 39
+\BOOKMARK [2][]{subsection.2.3.4}{タングステン吸収層}{section.2.3}% 40
+\BOOKMARK [2][]{subsection.2.3.5}{技術プロトタイプ}{section.2.3}% 41
+\BOOKMARK [0][]{chapter.3}{ビームテストによる評価実験}{}% 42
+\BOOKMARK [1][]{section.3.1}{CERN SPS}{chapter.3}% 43
+\BOOKMARK [1][]{section.3.2}{実験セットアップ}{chapter.3}% 44
+\BOOKMARK [2][]{subsection.3.2.1}{測定機器のセットアップ}{section.3.2}% 45
+\BOOKMARK [2][]{subsection.3.2.2}{EUDAQによる信号読み出し}{section.3.2}% 46
+\BOOKMARK [1][]{section.3.3}{実験結果}{chapter.3}% 47
+\BOOKMARK [2][]{subsection.3.3.1}{検出器応答}{section.3.3}% 48
+\BOOKMARK [2][]{subsection.3.3.2}{ペデスタル}{section.3.3}% 49
+\BOOKMARK [2][]{subsection.3.3.3}{スクエアイベント}{section.3.3}% 50
+\BOOKMARK [1][]{section.3.4}{まとめと考察}{chapter.3}% 51
+\BOOKMARK [0][]{chapter.4}{深層学習}{}% 52
+\BOOKMARK [1][]{section.4.1}{ニューラルネットワーク}{chapter.4}% 53
+\BOOKMARK [2][]{subsection.4.1.1}{パーセプトロン（単層ニューラルネットワーク）}{section.4.1}% 54
+\BOOKMARK [2][]{subsection.4.1.2}{多層パーセプトロン（多層ニューラルネットワーク）}{section.4.1}% 55
+\BOOKMARK [3][]{section*.35}{活性化関数}{subsection.4.1.2}% 56
+\BOOKMARK [3][]{section*.36}{出力層の設計}{subsection.4.1.2}% 57
+\BOOKMARK [3][]{section*.37}{損失関数}{subsection.4.1.2}% 58
+\BOOKMARK [3][]{section*.38}{誤差逆伝播法}{subsection.4.1.2}% 59
+\BOOKMARK [3][]{section*.39}{ミニバッチ処理}{subsection.4.1.2}% 60
+\BOOKMARK [3][]{section*.40}{最適化アルゴリズム}{subsection.4.1.2}% 61
+\BOOKMARK [2][]{subsection.4.1.3}{ディープニューラルネットワーク}{section.4.1}% 62
+\BOOKMARK [1][]{section.4.2}{グラフニューラルネットワーク}{chapter.4}% 63
+\BOOKMARK [2][]{subsection.4.2.1}{Graph Convolution Network \(GCN\)}{section.4.2}% 64
+\BOOKMARK [3][]{section*.45}{Spectral Graph Convolution}{subsection.4.2.1}% 65
+\BOOKMARK [3][]{section*.46}{Spatial Graph Convolution}{subsection.4.2.1}% 66
+\BOOKMARK [2][]{subsection.4.2.2}{Graph Attention Network \(GAT\)}{section.4.2}% 67
+\BOOKMARK [2][]{subsection.4.2.3}{グラフニューラルネットワークの応用}{section.4.2}% 68
+\BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 69
+\BOOKMARK [1][]{section.5.1}{ジェットフレーバー識別アルゴリズム}{chapter.5}% 70
+\BOOKMARK [2][]{subsection.5.1.1}{事象再構成}{section.5.1}% 71
+\BOOKMARK [1][]{section.5.2}{イベントサンプル}{chapter.5}% 72
+\BOOKMARK [2][]{subsection.5.2.1}{前処理}{section.5.2}% 73
+\BOOKMARK [1][]{section.5.3}{ディープニューラルネットワークによる実装}{chapter.5}% 74
+\BOOKMARK [2][]{subsection.5.3.1}{ネットワークの構造}{section.5.3}% 75
+\BOOKMARK [2][]{subsection.5.3.2}{ハイパーパラメータの最適化}{section.5.3}% 76
+\BOOKMARK [2][]{subsection.5.3.3}{学習結果}{section.5.3}% 77
+\BOOKMARK [1][]{section.5.4}{グラフニューラルネットワークによる実装}{chapter.5}% 78
+\BOOKMARK [2][]{subsection.5.4.1}{飛跡によるグラフデータセット}{section.5.4}% 79
+\BOOKMARK [2][]{subsection.5.4.2}{ネットワークの構造}{section.5.4}% 80
+\BOOKMARK [2][]{subsection.5.4.3}{ハイパーパラメータの最適化}{section.5.4}% 81
+\BOOKMARK [2][]{subsection.5.4.4}{学習結果}{section.5.4}% 82
+\BOOKMARK [1][]{section.5.5}{LCFIPlusとの比較}{chapter.5}% 83
+\BOOKMARK [1][]{section.5.6}{まとめと今後の展望}{chapter.5}% 84
+\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 85
+\BOOKMARK [0][]{appendix.A}{付録A}{}% 86
