@@ -57,17 +57,17 @@
 \BOOKMARK [1][]{section.4.1}{ニューラルネットワーク}{chapter.4}% 56
 \BOOKMARK [2][]{subsection.4.1.1}{パーセプトロン（単層ニューラルネットワーク）}{section.4.1}% 57
 \BOOKMARK [2][]{subsection.4.1.2}{多層パーセプトロン（多層ニューラルネットワーク）}{section.4.1}% 58
-\BOOKMARK [3][]{section*.37}{活性化関数}{subsection.4.1.2}% 59
-\BOOKMARK [3][]{section*.38}{出力層の設計}{subsection.4.1.2}% 60
-\BOOKMARK [3][]{section*.39}{損失関数}{subsection.4.1.2}% 61
-\BOOKMARK [3][]{section*.40}{誤差逆伝播法}{subsection.4.1.2}% 62
-\BOOKMARK [3][]{section*.41}{ミニバッチ処理}{subsection.4.1.2}% 63
-\BOOKMARK [3][]{section*.42}{最適化アルゴリズム}{subsection.4.1.2}% 64
+\BOOKMARK [3][]{section*.39}{活性化関数}{subsection.4.1.2}% 59
+\BOOKMARK [3][]{section*.40}{出力層の設計}{subsection.4.1.2}% 60
+\BOOKMARK [3][]{section*.41}{損失関数}{subsection.4.1.2}% 61
+\BOOKMARK [3][]{section*.42}{誤差逆伝播法}{subsection.4.1.2}% 62
+\BOOKMARK [3][]{section*.43}{ミニバッチ処理}{subsection.4.1.2}% 63
+\BOOKMARK [3][]{section*.44}{最適化アルゴリズム}{subsection.4.1.2}% 64
 \BOOKMARK [2][]{subsection.4.1.3}{ディープニューラルネットワーク}{section.4.1}% 65
 \BOOKMARK [1][]{section.4.2}{グラフニューラルネットワーク}{chapter.4}% 66
 \BOOKMARK [2][]{subsection.4.2.1}{Graph Convolution Network \(GCN\)}{section.4.2}% 67
-\BOOKMARK [3][]{section*.43}{Spectral Graph Convolution}{subsection.4.2.1}% 68
-\BOOKMARK [3][]{section*.44}{Spatial Graph Convolution}{subsection.4.2.1}% 69
+\BOOKMARK [3][]{section*.46}{Spectral Graph Convolution}{subsection.4.2.1}% 68
+\BOOKMARK [3][]{section*.47}{Spatial Graph Convolution}{subsection.4.2.1}% 69
 \BOOKMARK [2][]{subsection.4.2.2}{Graph Attention Network \(GAT\)}{section.4.2}% 70
 \BOOKMARK [2][]{subsection.4.2.3}{グラフニューラルネットワークの応用}{section.4.2}% 71
 \BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 72

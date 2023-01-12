@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  11 JAN 2023 23:10
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  12 JAN 2023 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,32 +805,34 @@ File: Figure/Siwecal/core.png Graphic file (type bmp)
 
  (./Chapter/4.Deeplearning.tex
 第4章
-
-LaTeX Warning: Reference `perceptron' on page 38 undefined on input line 10.
-
+File: Figure/Deeplearning/perceptron.png Graphic file (type bmp)
+<Figure/Deeplearning/perceptron.png>
 [38
 
 
 
 
 ]
-
-LaTeX Warning: Reference `mlp' on page 39 undefined on input line 28.
-
+File: Figure/Deeplearning/mlp.png Graphic file (type bmp)
+<Figure/Deeplearning/mlp.png>
+ [39]
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 37.
+(Font)              scaled to size 6.72699pt on input line 55.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 37.
-[39]
+(Font)              scaled to size 4.805pt on input line 55.
 
-LaTeX Warning: Reference `softmax' on page 40 undefined on input line 69.
 
-[40] [41] [42]) [43]
+LaTeX Warning: Reference `softmax' on page 40 undefined on input line 87.
+
+[40] [41] [42]
+File: Figure/Deeplearning/dnn.png Graphic file (type bmp)
+<Figure/Deeplearning/dnn.png>
+ [43]) [44]
 \openout2 = `Chapter/5.Flavortagging.aux'.
 
  (./Chapter/5.Flavortagging.tex
 第5章
-) [44
+) [45
 
 
 
@@ -839,12 +841,12 @@ LaTeX Warning: Reference `softmax' on page 40 undefined on input line 69.
 Overfull \vbox (9.76073pt too high) has occurred while \output is active []
 
 
-[45]
+[46]
 \openout2 = `Chapter/6.Conclusion.aux'.
 
  (./Chapter/6.Conclusion.tex
 第6章
-) [46
+) [47
 
 
 
@@ -854,7 +856,7 @@ Overfull \vbox (9.76073pt too high) has occurred while \output is active []
 
  (./Chapter/Appendix/7.AppendixA.tex
 付録A
-) [47
+) [48
 
 
 
@@ -862,7 +864,7 @@ Overfull \vbox (9.76073pt too high) has occurred while \output is active []
 ]
 \openout2 = `Chapter/8.Acknowledgement.aux'.
 
- (./Chapter/8.Acknowledgement.tex) [48
+ (./Chapter/8.Acknowledgement.tex) [49
 
 
 
@@ -879,15 +881,15 @@ No file MasterThesis.bbl.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1493D48C269E0628380EB17D46C032CD;6957.
+(rerunfilecheck)             Checksum: 51D932B3C1301EB710AA10EF78949B03;6957.
  ) 
 Here is how much of TeX's memory you used:
- 16433 strings out of 478724
- 317612 string characters out of 5858392
- 584252 words of memory out of 5000000
- 34584 multiletter control sequences out of 15000+600000
+ 16451 strings out of 478724
+ 318139 string characters out of 5858392
+ 583401 words of memory out of 5000000
+ 34597 multiletter control sequences out of 15000+600000
  513843 words of font info for 96 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,14n,79p,1251b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (48 pages, 192196 bytes).
+Output written on MasterThesis.dvi (49 pages, 195160 bytes).
