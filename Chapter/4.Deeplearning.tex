@@ -156,18 +156,19 @@ Adamはモーメントの考えとAdaGradの考えを融合させた手法であ
 \section{グラフニューラルネットワーク}
 深層学習では数値データのみでなく、画像認識や自然言語処理など様々なデータに対して目覚ましい成果を挙げている。その中で特に近年、グラフで表される構造データに対する研究が非常に盛んになっており、本研究において取り上げるグラフニューラルネットワークもその一つである。グラフ構造データとは、オブジェクトの集合（ノード）を関係（エッジ）で結んだデータのことで、ノードのみが特徴量を持つ場合と、ノードとエッジの両方が特徴量を持つ場合がある。代表的には、友人関係や論文の引用関係、化学化合物などをグラフデータとして構築することは有用であるとされており、高い表現力を持つことを強みとしている。グラフの種類は大きく分けてノードの次元が同じ同種グラフと、異なる次元のデータを扱う異種グラフの2種類に分けられる。更に、エッジが方向性を持っている有向グラフと無向グラフ、データが時系列で変化する動的グラフと変化しない静的グラフに分けられる。そしてこのようなグラフデータを扱うニューラルネットをグラフニューラルネットワーク（Graph Neural Network, GNN）という。グラフ構造や演算技術、目的とする課題によってGNNのネットワークモデルの種類は多岐にわたっており、以下では基本的なグラフでの演算や本論文に関連した幾つかの種類のモデルを取り上げる。\\
 \subsection{メッセージパッシング}
-GNNのアーキテクチャにおいて、グラフは集合$\mathcal{G} = (\mathcal{V}, \mathcal{E})$で構成されており、$\mathcal{V}$はノードの集合、$\mathcal{E}$はエッジの集合を表す。ニューラルネットワークの場合と同様にノードは特徴量を持っており、エッジも特徴量を持つことができる。図\ref{messagepass}にGNNにおける一般的な演算処理の流れ（メッセージパッシング）を示す。各ノードを$h_i$とすると、隣接しているノードおよびその間のエッジの特徴量を集約し、ノードを更新$h'_1$する。これによってエッジによって関連づけられたノード間で特徴量を更新していくことができる。エッジが特徴量を持つ場合は、エッジについても更新を行う。これらを数式にまとめると次のようになる。
+GNNのアーキテクチャにおいて、グラフは集合$\mathcal{G} = (\mathcal{V}, \mathcal{E})$で構成されており、$\mathcal{V}$はノードの集合、$\mathcal{E}$はエッジの集合を表す。ニューラルネットワークの場合と同様にノードは特徴量を持っており、エッジも特徴量を持つことができる。図\ref{messagepass}にGNNにおける一般的な演算処理の流れ（メッセージパッシング）を示す。各ノードを$\mathbf{h}_i$とすると、隣接しているノードおよびその間のエッジの特徴量を集約し、ノードを更新$\mathbf{h}'_1$する。これによってエッジによって関連づけられたノード間で特徴量を更新していくことができる。エッジが特徴量を持つ場合は、エッジについても更新を行う。これらを数式にまとめると次のようになる。
 \begin{align}
-h_{(i,j)} &= f_{edge}(h_i, h_j, x_{(i, j)})\\
-h'_i &= f_{node}(h_i, \sum_{j\in \mathcal{N}_i}, h_{(j, i)}, x_i)
+\mathbf{h}_{(i,j)} &= f_{edge}(\mathbf{h}_i, \mathbf{h}_j, x_{(i, j)})\\
+\mathbf{h}'_i &= f_{node}(\mathbf{h}_i, \sum_{j\in \mathcal{N}_i}, \mathbf{h}_{(j, i)}, x_i)
+\label{gnnm}
 \end{align}
-ここで、$h_{(i,j)}$はエッジを、$x_i$はノードの特徴量を、$\mathcal{N}_i$は隣接しているノードの集合を表す。
+ここで、$\mathbf{h}_{(i,j)}$はエッジを、$x_i$はノードの特徴量を、$\mathcal{N}_i$は隣接しているノードの集合を表す。
 \begin{figure}[H]
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.25]
  	{Figure/Deeplearning/messagepassing.png}
  		\caption{ (左) 4つのノードを持つ全結合グラフニューラルネットワーク。$h_i$はノード表現を表す。 (右) メッセージパッシングの処理。}
- 		\label{messegepass}
+ 		\label{messagepass}
 	\end{center}
 \end{figure}
 \subsection{Graph Convolution Network (GCN)}
@@ -179,19 +180,49 @@ GCNとは、メッセージパッシングにおいて畳み込み（Convolution
 \mathscr{F}^{-1}(\mathbf{x}) &= \mathbf{U}\mathbf{x}
 \end{align}
 ここで、$\mathbf{U}$は正規化グラフラプラシアン$\mathbf{L}'$の固有ベクトル行列を表す。グラフラプラシアン$\mathbf{L}$は、グラフの隣接を表す隣接行列$\mathbf{A}$とグラフの各ノードに接続したノード数を対角成分にもつ次数行列$\mathbf{D}$を用いて、$\mathbf{L} = \mathbf{D}-  \mathbf{A}$で求められる実対称正方行列であり、正規化グラフラプラシアンは$\mathbf{L}' = \mathbf{I} - \mathbf{D}^{\frac{1}{2}} \mathbf{A} \mathbf{D}^{\frac{1}{2}}$とかける。\\
-これらを用いて、グラフにおけるSpectralな畳み込み演算は次のように定義される。
+　これらを用いて、グラフにおけるSpectralな畳み込み演算は次のように定義される。
 \begin{align}
 \mathbf{g} \star \mathbf{x} &= \mathscr{F}^{-1}(\mathscr{F}(\mathbf{g}) \odot \mathscr{F}(\mathbf{x}))\\
 &= \mathbf{U}(\mathbf{U}^T \mathbf{g} \odot \mathbf{U}^T \mathbf{x})
 \end{align}
-$\mathbf{g} \star \mathbf{x}$は畳み込み演算を、$\mathbf{U}^T \mathbf{g}$はスペクトル領域における畳み込みのフィルターを表す。学習により更新される集合である$\mathbf{g}$に焦点を当ててより単純化すると、次のようにかくことができる。\\
+$\mathbf{g} \star \mathbf{x}$は畳み込み演算を、$\mathbf{U}^T \mathbf{g}$はスペクトルにおける畳み込みのフィルターを表す。学習により更新される集合である$\mathbf{g}$に焦点を当ててより単純化すると、畳み込みは次のように書くことができる。\\
 \begin{align}
 \mathbf{g} \star \mathbf{x} &= \mathbf{U} \mathbf{g} \mathbf{U}^T \mathbf{x}
 \end{align}
-　上記のように、スペクトルによる畳み込みはグラフ構造の一部が全体に影響を与えるような演算であるという特徴を持っており、さらに行列の固有値分解など計算量が多くなってしまう欠点がある。
+　上記のように、スペクトルによる畳み込みは一度の更新の中でグラフ構造の一部が全体に影響を与えるような演算であるという特徴を持っている。さらに、行列の次元が固定されてしまうことから異なる構造のグラフ間でパラメータを共有できないことや、行列の固有値分解など計算量が多くなってしまうという問題点がある。
 \subsubsection{Spatial Graph Convolution}
 グラフデータにおける畳み込みは空間的なメッセージパッシングの考えに基づいており、グラフ内の1つのノードが持っている特徴量に、隣接関係にあるノードの特徴量に重みをかけたものを加えていく。これによりノード自体の特徴量に加え、隣接関係や隣接ノードの特徴量の情報などを含んだ演算を行うことができる。メッセージパッシングにおける工夫に応じて様々な畳み込みのモデルが提案されているが、以下では最も一般的なモデルであるGraphSAGEについて述べる。\\
-　GraphSAGE（Graph SAmple and aggreGatE）では、隣接から特徴量をサンプリングして集約することで自身のノードを更新する。
+　GraphSAGE（Graph SAmple and aggreGatE）\cite{graphsage}では、隣接から特徴量をサンプリングして集約することで自身のノードを更新する。GraphSAGEにおける畳み込み演算は式\ref{gnnm}と同様に、次の式のように表される。\\
+\begin{align}
+&\mathbf{h}_{\mathcal{N}(v)}^k \leftarrow \mathrm{AGGREGATE}_k(\{ \mathbf{h}_u^{k-1}, \forall u \in \mathcal{N}(v) \})\\
+&\mathbf{h}_v^k \leftarrow \sigma (\mathbf{W}^k \cdot \mathrm{CONCAT}(\mathbf{h}_v^{k-1}, \mathbf{h}_{\mathcal{N}(v)}^k))\\
+&  (\forall k \in \{1, ..., K\}, \forall v \in \mathcal{V}) \nonumber
+\end{align}
+ここで、$K$は集約における隣接の深さを、$\mathbf{W}^k$は重みパラメータ行列を、$\sigma$は非線形関数を表しており、1式目$\mathrm{AGGREGATE}$で集約を、2式目$\mathrm{CONCAT}$で更新を行なっている。GraphSAGEはあらかじめサンプリングによって、隣接するノード数が異なる場合やグラフ構造が変わった場合にも畳み込み演算を行うことができ、さらに大規模なグラフ演算に対しては計算コストを改善することができる。
+\begin{figure}[H]
+	\begin{center}
+ \includegraphics[keepaspectratio, scale=0.3]
+ 	{Figure/Deeplearning/sage.png}
+ 		\caption{GraphSAGEにおける処理(1. サンプリング, 2. 隣接からの集約, 3. 学習結果による推論)}
+ 		\label{sage}
+	\end{center}
+\end{figure}
 \subsection{Graph Attention Network (GAT)}
-
-\subsection{グラフニューラルネットワークの応用}
+深層学習ではAttentionという、データの中でも特に有益な場所に重み付けを行う手法があり、自然言語処理の分野などにおいてよく用いられている。Attention機構では各ノードに対して重要度を表す重み導入し、それらを掛けた和をとることで必要な場所に注目（attention）を向けることができる。Attentionをグラフ学習に適用したものが、Graph Attention Networks (GAT) \cite{gat} である。GATでは、重みパラメータ$\mathbf{W}$に加えて隣接したノードの重要度を表すattention係数$\alpha_{ij}$を導入して、ノードの特徴量の更新を以下のように行う。
+\begin{align}
+\mathbf{h} = \sigma (\sum_{j \in \mathcal{N}_i} \alpha_{ij} \mathbf{W} \mathbf{h}_i )
+\end{align}
+ここで、$\alpha_{ij}$はattention処理$\mathbf{a}$を用いて、次のように表される。
+\begin{align}
+\alpha_{ij} &= \mathbf{a}(\mathbf{W}\mathbf{h}_i, \mathbf{W}\mathbf{h}_j)\\
+ &= \frac{e^{LeakyReLU(\mathbf{a}^T [ \mathbf{W}\mathbf{h}_i \parallel \mathbf{W}\mathbf{h}_j ])}}{\sum_{\mathcal{N}_i} e^{LeakyReLU(\mathbf{a}^T [ \mathbf{W}\mathbf{h}_i \parallel  \mathbf{W}\mathbf{h}_j ])}}
+\label{gat}
+\end{align}
+　GATではattention処理に1層のニューラルネットワークを用いており、$\mathbf{a}$として学習の重みベクトルを用いている。式\ref{gat}においては全ノード間で正規化して確率値を出力するためのsoftmax関数の適用と、活性化関数 (Leaky ReLU) の適用を行っている。（$\cdot^T$は転置を、$\parallel$はテンソルのconcatenateを表す。）GATは、隣接に任意の重みを割り当てることから次数の異なるノードにも適応可能であり、未知のグラフ構造にも一般化することができる。
+\begin{figure}[H]
+	\begin{center}
+ \includegraphics[keepaspectratio, scale=0.25]
+ 	{Figure/Deeplearning/gat.png}
+ 		\caption{ (左) 重みベクトル$\mathbf{a}$を用いたAttention処理。 (右) 1つのノード$\mathbf{h}_1$に対する隣接ノード$\mathbf{h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\mathbf{h'}_1$}
+	\end{center}
+\end{figure}

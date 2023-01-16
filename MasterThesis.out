@@ -70,22 +70,21 @@
 \BOOKMARK [3][]{section*.47}{Spectral Graph Convolution}{subsection.4.2.2}% 69
 \BOOKMARK [3][]{section*.48}{Spatial Graph Convolution}{subsection.4.2.2}% 70
 \BOOKMARK [2][]{subsection.4.2.3}{Graph Attention Network \(GAT\)}{section.4.2}% 71
-\BOOKMARK [2][]{subsection.4.2.4}{グラフニューラルネットワークの応用}{section.4.2}% 72
-\BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 73
-\BOOKMARK [1][]{section.5.1}{ジェットフレーバー識別アルゴリズム}{chapter.5}% 74
-\BOOKMARK [2][]{subsection.5.1.1}{事象再構成}{section.5.1}% 75
-\BOOKMARK [1][]{section.5.2}{イベントサンプル}{chapter.5}% 76
-\BOOKMARK [2][]{subsection.5.2.1}{前処理}{section.5.2}% 77
-\BOOKMARK [1][]{section.5.3}{ディープニューラルネットワークによる実装}{chapter.5}% 78
-\BOOKMARK [2][]{subsection.5.3.1}{ネットワークの構造}{section.5.3}% 79
-\BOOKMARK [2][]{subsection.5.3.2}{ハイパーパラメータの最適化}{section.5.3}% 80
-\BOOKMARK [2][]{subsection.5.3.3}{学習結果}{section.5.3}% 81
-\BOOKMARK [1][]{section.5.4}{グラフニューラルネットワークによる実装}{chapter.5}% 82
-\BOOKMARK [2][]{subsection.5.4.1}{飛跡によるグラフデータセット}{section.5.4}% 83
-\BOOKMARK [2][]{subsection.5.4.2}{ネットワークの構造}{section.5.4}% 84
-\BOOKMARK [2][]{subsection.5.4.3}{ハイパーパラメータの最適化}{section.5.4}% 85
-\BOOKMARK [2][]{subsection.5.4.4}{学習結果}{section.5.4}% 86
-\BOOKMARK [1][]{section.5.5}{LCFIPlusとの比較}{chapter.5}% 87
-\BOOKMARK [1][]{section.5.6}{まとめと今後の展望}{chapter.5}% 88
-\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 89
-\BOOKMARK [0][]{appendix.A}{付録A}{}% 90
+\BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 72
+\BOOKMARK [1][]{section.5.1}{ジェットフレーバー識別アルゴリズム}{chapter.5}% 73
+\BOOKMARK [2][]{subsection.5.1.1}{事象再構成}{section.5.1}% 74
+\BOOKMARK [1][]{section.5.2}{イベントサンプル}{chapter.5}% 75
+\BOOKMARK [2][]{subsection.5.2.1}{前処理}{section.5.2}% 76
+\BOOKMARK [1][]{section.5.3}{ディープニューラルネットワークによる実装}{chapter.5}% 77
+\BOOKMARK [2][]{subsection.5.3.1}{ネットワークの構造}{section.5.3}% 78
+\BOOKMARK [2][]{subsection.5.3.2}{ハイパーパラメータの最適化}{section.5.3}% 79
+\BOOKMARK [2][]{subsection.5.3.3}{学習結果}{section.5.3}% 80
+\BOOKMARK [1][]{section.5.4}{グラフニューラルネットワークによる実装}{chapter.5}% 81
+\BOOKMARK [2][]{subsection.5.4.1}{飛跡によるグラフデータセット}{section.5.4}% 82
+\BOOKMARK [2][]{subsection.5.4.2}{ネットワークの構造}{section.5.4}% 83
+\BOOKMARK [2][]{subsection.5.4.3}{ハイパーパラメータの最適化}{section.5.4}% 84
+\BOOKMARK [2][]{subsection.5.4.4}{学習結果}{section.5.4}% 85
+\BOOKMARK [1][]{section.5.5}{LCFIPlusとの比較}{chapter.5}% 86
+\BOOKMARK [1][]{section.5.6}{まとめと今後の展望}{chapter.5}% 87
+\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 88
+\BOOKMARK [0][]{appendix.A}{付録A}{}% 89
