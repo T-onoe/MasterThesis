@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  16 JAN 2023 02:46
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  17 JAN 2023 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -321,43 +321,49 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count287
 )
 (/usr/local/texlive/2022/texmf-dist/tex/platex/pxjahyper/pxjahyper-enc.sty
-Package: pxjahyper-enc 2022/03/15 v0.9d
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
-Package: bxjatoucs 2019/10/20 v0.2
+Package: pxjahyper_object_int=\count287
+\l__pdf_backend_content_box=\box71
+\l__pdf_backend_model_box=\box72
+\g__pdf_backend_annotation_int=\count288
+\g__pdf_backend_link_int=\count289
+\g__pdf_backend_link_sf_int=\count290
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
-Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen183
-\ar@mcellbox=\box70
-\extrarowheight=\dimen184
-\NC@list=\toks24
-\extratabsurround=\skip63
-\backup@length=\skip64
-\ar@cellbox=\box71
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mathcomp/mathcomp.sty
-Package: mathcomp 2001/01/07 v0.1f (TBo)
+./pxjahyper.sty:160: LaTeX3 Error: Control sequence \l__platex_shipout_dummy_bo
+x already defined.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-\symTC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.160  \box_new:N \l__platex_shipout_dummy_box
+                                              
+? 
+./pxjahyper.sty:160: Emergency stop.
+ ...                                              
+                                                  
+l.160  \box_new:N \l__platex_shipout_dummy_box
+                                              
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+This is a coding error.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+LaTeX has been asked to create a new control sequence
+'\l__platex_shipout_dummy_box' but this name has already been used elsewhere.
+
+The current meaning is:
+  \char"42
+
+
+ 
+Here is how much of TeX's memory you used:
+ 9559 strings out of 478724
+ 146533 string characters out of 5858392
+ 444122 words of memory out of 5000000
+ 27922 multiletter control sequences out of 15000+600000
+ 473991 words of font info for 50 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 60i,0n,64p,256b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
+3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen185
 \captionmargin=\dimen186
@@ -684,25 +690,31 @@ File: Figure/Introduction/ilc.jpg Graphic file (type bmp)
 <Figure/Introduction/ilc.jpg>
  [14]
 
-Package caption Warning: \label without proper reference on input line 74.
+Package caption Warning: \label without proper reference on input line 77.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `higgs_cs' on page 15 undefined on input line 63.
 
+
+LaTeX Warning: Reference `recoil' on page 15 undefined on input line 63.
+
 File: Figure/Introduction/higgs_cs_feynman.png Graphic file (type bmp)
 <Figure/Introduction/higgs_cs_feynman.png>
 
-Overfull \hbox (25.77638pt too wide) in paragraph at lines 66--68
+Overfull \hbox (25.77638pt too wide) in paragraph at lines 69--71
 [][] 
  []
 
 File: Figure/Introduction/higgs_cross_section.png Graphic file (type bmp)
 <Figure/Introduction/higgs_cross_section.png>
+
+LaTeX Warning: Reference `2hdm' on page 15 undefined on input line 80.
+
 File: Figure/Introduction/higgs_decay.png Graphic file (type bmp)
 <Figure/Introduction/higgs_decay.png>
 
-Overfull \hbox (4.70306pt too wide) in paragraph at lines 81--83
+Overfull \hbox (4.70306pt too wide) in paragraph at lines 85--87
  [] 
  []
 
@@ -715,33 +727,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Figure/Introduction/feynman.png Graphic file (type bmp)
 <Figure/Introduction/feynman.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [16] [17]
 File: Figure/Introduction/detector.png Graphic file (type bmp)
 <Figure/Introduction/detector.png>
 
-Overfull \hbox (38.41936pt too wide) in paragraph at lines 142--144
+Overfull \hbox (38.41936pt too wide) in paragraph at lines 146--148
  [] 
  []
 
 File: Figure/Introduction/ild.png Graphic file (type bmp)
 <Figure/Introduction/ild.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [18] [19]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 170.
+(hyperref)                than one, level fixed on input line 174.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[20]
 File: Figure/Introduction/ilcsoft.png Graphic file (type bmp)
 <Figure/Introduction/ilcsoft.png>
-[20]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -909,12 +913,12 @@ Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 7AB929402596C87DDEB900D1A09040A9;6936.
  ) 
 Here is how much of TeX's memory you used:
- 16511 strings out of 478724
- 319708 string characters out of 5858392
+ 16513 strings out of 478724
+ 319722 string characters out of 5858392
  583773 words of memory out of 5000000
- 34644 multiletter control sequences out of 15000+600000
+ 34646 multiletter control sequences out of 15000+600000
  514338 words of font info for 99 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,14n,79p,1251b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (52 pages, 209772 bytes).
+Output written on MasterThesis.dvi (52 pages, 210944 bytes).
