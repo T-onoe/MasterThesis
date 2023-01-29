@@ -2,7 +2,7 @@
 \documentclass[
   12pt,                        % フォントサイズ
   openany,                     % 省の始まりを奇数ページに限定しない
-%  draft,                       % 下書き用 画像を読み込まないのでタイプセットが早く済む
+  %draft,                       % 下書き用 画像を読み込まないのでタイプセットが早く済む
 ]{jsbook}
 
 %====================================================================================================
@@ -55,6 +55,7 @@
 \makeatother
 \newcommand{\cth}{\multicolumn{1}{c}}	%表内で文字を中央ぞろえにする"Centering the Heading"
 \usepackage{siunitx} %SI単位系
+\usepackage{xr} %別ファイル同士の引用
 %\setcounter{secnumdepth}{4}	%sectionの深さ
 %===================================================================================================
 %===== set length
@@ -104,10 +105,11 @@
  \thispagestyle{empty}
  \begin{center}
   {\Large \@title{}}            \\
+  \vspace{5pt}
   \@university{} \@department{} \\
   \@laboratory{}                \\
   \@author{}                    \\[1ex]
-  指導教員\ \@supervisor{}      \\
+  指導教員\ \ \@supervisor{}      \\
   \mbox{}                       \\
  \end{center}
 }
@@ -138,10 +140,10 @@
 \fiscalyear{2022}
 \title     {電子陽電子ヒッグスファクトリーのための\\ジェット測定技術の研究}
 \author    {尾上\ 友紀}
-\supervisor{末原\ 大幹\ 川越\ 清以}
+\supervisor{末原大幹\ 助教\ \ 川越清以\ 教授}
 \university{九州大学大学院}
-\department{理学府 物理学専攻}
-\labolatory{粒子物理学分野 素粒子実験研究室}
+\department{理学府物理学専攻}
+\labolatory{粒子物理学分野素粒子実験研究室}
 \date      {\today}
 
 %====================================================================================================

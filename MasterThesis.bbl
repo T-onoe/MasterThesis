@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{gaugehiggs}
+藤井恵介,
+\newblock リニアコライダーの物理.
+
+\bibitem{lcfiplus}
+T.~Suehara and T.~Tanabe,
+\newblock Lcfiplus: A framework for jet analysis in linear collider studies,
+\newblock Nucl.Instrum.Meth. A808 , 12 (2016).
+
+\bibitem{durham}
+S.~Catani, Y.~L. Dokshitzer, M.~Olsson, G.~Turnock, and B.~Webber,
+\newblock New clustering algorithm for multijet cross sections in
+  e+e－ annihilation,
+\newblock Physics Letters B {\bf 269}, 432 (1991).
+
+\bibitem{graphsage}
+W.~L. Hamilton, R.~Ying, and J.~Leskovec,
+\newblock Inductive representation learning on large graphs,
+\newblock NIPS  (2017).
+
+\bibitem{gat}
+P.~Veli{\v c}kovi{\'c} \emph{et~al.},
+\newblock Graph attention networks,
+\newblock ICLR 2018 , 12 (2017).
+
+\end{thebibliography}

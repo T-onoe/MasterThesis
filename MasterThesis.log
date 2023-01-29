@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  17 JAN 2023 16:44
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  29 JAN 2023 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -321,49 +321,43 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count287
 )
 (/usr/local/texlive/2022/texmf-dist/tex/platex/pxjahyper/pxjahyper-enc.sty
-Package: pxjahyper_object_int=\count287
-\l__pdf_backend_content_box=\box71
-\l__pdf_backend_model_box=\box72
-\g__pdf_backend_annotation_int=\count288
-\g__pdf_backend_link_int=\count289
-\g__pdf_backend_link_sf_int=\count290
+Package: pxjahyper-enc 2022/03/15 v0.9d
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
+Package: bxjatoucs 2019/10/20 v0.2
 ))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
-./pxjahyper.sty:160: LaTeX3 Error: Control sequence \l__platex_shipout_dummy_bo
-x already defined.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box70
+\extrarowheight=\dimen184
+\NC@list=\toks24
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box71
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathcomp/mathcomp.sty
+Package: mathcomp 2001/01/07 v0.1f (TBo)
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.160  \box_new:N \l__platex_shipout_dummy_box
-                                              
-? 
-./pxjahyper.sty:160: Emergency stop.
- ...                                              
-                                                  
-l.160  \box_new:N \l__platex_shipout_dummy_box
-                                              
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+\symTC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 
-This is a coding error.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-LaTeX has been asked to create a new control sequence
-'\l__platex_shipout_dummy_box' but this name has already been used elsewhere.
-
-The current meaning is:
-  \char"42
-
-
- 
-Here is how much of TeX's memory you used:
- 9559 strings out of 478724
- 146533 string characters out of 5858392
- 444122 words of memory out of 5000000
- 27922 multiletter control sequences out of 15000+600000
- 473991 words of font info for 50 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 60i,0n,64p,256b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
-No pages of output.
-3.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen185
 \captionmargin=\dimen186
@@ -445,9 +439,12 @@ File: l3backend-dvips.def 2022-02-07 L3 backend support: dvips
 \g__pdf_backend_link_sf_int=\count305
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
-))
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2020-05-10 v5.06 eXternal References (DPC)
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 154.
+h' as default language. on input line 156.
+
 (./MasterThesis.aux (./Chapter/0.Abstract.aux) (./Chapter/1.Introduction.aux)
 (./Chapter/2.Siwecal.aux) (./Chapter/3.Beamtest.aux)
 (./Chapter/4.Deeplearning.aux) (./Chapter/5.Flavortagging.aux)
@@ -455,28 +452,28 @@ h' as default language. on input line 154.
 (./Chapter/8.Acknowledgement.aux))
 \openout1 = `MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -512,7 +509,7 @@ LaTeX Font Info:    ... okay on input line 154.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 154.
+Package hyperref Info: Link coloring OFF on input line 156.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -525,9 +522,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 154.
-LaTeX Info: Redefining \pageref on input line 154.
-LaTeX Info: Redefining \nameref on input line 154.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
  (./MasterThesis.out) (./MasterThesis.out)
 \@outlinefile=\write3
 \openout3 = `MasterThesis.out'.
@@ -553,15 +550,15 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 154.
+or `english'. on input line 156.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 160.
+(Font)              scaled to size 13.83836pt on input line 162.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 160.
+(Font)              scaled to size 13.83836pt on input line 162.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 160.
+(Font)              scaled to size 11.53198pt on input line 162.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 160.
+(Font)              scaled to size 11.53198pt on input line 162.
 File: ./Figure/Introduction/KyushuUniversityLogo.eps Graphic file (type eps)
 <./Figure/Introduction/KyushuUniversityLogo.eps>
  [1
@@ -572,39 +569,39 @@ File: ./Figure/Introduction/KyushuUniversityLogo.eps Graphic file (type eps)
 
  (./Chapter/0.Abstract.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 15.
+(Font)              scaled to size 16.60605pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 15.
+(Font)              scaled to size 16.60605pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 18.
+(Font)              scaled to size 6.72699pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 18.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+(Font)              scaled to size 4.805pt on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 18
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 166.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 166.
+(Font)              scaled to size 9.60999pt on input line 168.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 166.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 168.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 166.
+(Font)              scaled to size 9.60999pt on input line 168.
  [3
 
 ] [4
@@ -612,17 +609,17 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 172.
+(Font)              scaled to size 23.90964pt on input line 174.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 172.
+(Font)              scaled to size 23.90964pt on input line 174.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 172.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 172.
+(Font)              scaled to size 23.90964pt on input line 174.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 172.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 172.
+(Font)              scaled to size 23.90964pt on input line 174.
 
 (./MasterThesis.toc [5
 
@@ -634,25 +631,29 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 32.
+(Font)              scaled to size 6.72699pt on input line 35.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 32.
-)
+(Font)              scaled to size 4.805pt on input line 35.
+ [9])
 \tf@lof=\write5
 \openout5 = `MasterThesis.lof'.
 
- [9]
+ [10]
 (./MasterThesis.lot)
 \tf@lot=\write6
 \openout6 = `MasterThesis.lot'.
 
- [10
+ [11
 
 ]
 \openout2 = `Chapter/1.Introduction.aux'.
 
  (./Chapter/1.Introduction.tex
 第1章
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 6.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -679,142 +680,146 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 9.
 File: Figure/Introduction/sm.jpg Graphic file (type bmp)
 <Figure/Introduction/sm.jpg>
-[11
+[12
 
 
-]
+] [13]
 File: Figure/Introduction/higgspotential.png Graphic file (type bmp)
 <Figure/Introduction/higgspotential.png>
- [12] [13]
-File: Figure/Introduction/ilc.jpg Graphic file (type bmp)
-<Figure/Introduction/ilc.jpg>
  [14]
+File: Figure/Introduction/ilc.png Graphic file (type bmp)
+<Figure/Introduction/ilc.png>
 
-Package caption Warning: \label without proper reference on input line 77.
+
+Package caption Warning: \label without proper reference on input line 78.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `higgs_cs' on page 15 undefined on input line 63.
+LaTeX Warning: Reference `higgs_cs' on page 15 undefined on input line 62.
 
-
-LaTeX Warning: Reference `recoil' on page 15 undefined on input line 63.
-
+[15]
 File: Figure/Introduction/higgs_cs_feynman.png Graphic file (type bmp)
 <Figure/Introduction/higgs_cs_feynman.png>
 
-Overfull \hbox (25.77638pt too wide) in paragraph at lines 69--71
+Overfull \hbox (25.77638pt too wide) in paragraph at lines 70--72
 [][] 
  []
 
 File: Figure/Introduction/higgs_cross_section.png Graphic file (type bmp)
 <Figure/Introduction/higgs_cross_section.png>
-
-LaTeX Warning: Reference `2hdm' on page 15 undefined on input line 80.
-
 File: Figure/Introduction/higgs_decay.png Graphic file (type bmp)
 <Figure/Introduction/higgs_decay.png>
 
-Overfull \hbox (4.70306pt too wide) in paragraph at lines 85--87
+Overfull \hbox (4.70306pt too wide) in paragraph at lines 86--88
  [] 
  []
 
-[15]
+[16] [17]
+File: Figure/Introduction/bsmdecay.png Graphic file (type bmp)
+<Figure/Introduction/bsmdecay.png>
+File: Figure/Introduction/lhcvsilc.png Graphic file (type bmp)
+<Figure/Introduction/lhcvsilc.png>
+ [18]
 File: Figure/Introduction/selfcoupling.png Graphic file (type bmp)
 <Figure/Introduction/selfcoupling.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Figure/Introduction/feynman.png Graphic file (type bmp)
 <Figure/Introduction/feynman.png>
-[16] [17]
+ [19]
 File: Figure/Introduction/detector.png Graphic file (type bmp)
 <Figure/Introduction/detector.png>
 
-Overfull \hbox (38.41936pt too wide) in paragraph at lines 146--148
+Overfull \hbox (38.41936pt too wide) in paragraph at lines 176--178
  [] 
  []
 
+[20] [21]
 File: Figure/Introduction/ild.png Graphic file (type bmp)
 <Figure/Introduction/ild.png>
-[18] [19]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 174.
-
-[20]
-File: Figure/Introduction/ilcsoft.png Graphic file (type bmp)
-<Figure/Introduction/ilcsoft.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
+[22]
+File: Figure/Introduction/vertexdetector.png Graphic file (type bmp)
+<Figure/Introduction/vertexdetector.png>
+ [23]
+File: Figure/Introduction/ilcsoft.png Graphic file (type bmp)
+<Figure/Introduction/ilcsoft.png>
+ [24] [25]
 File: Figure/Introduction/bcjets.pdf Graphic file (type pdf)
 <Figure/Introduction/bcjets.pdf>
- [22] [23]) [24]
+ [26] [27]) [28]
 \openout2 = `Chapter/2.Siwecal.aux'.
 
  (./Chapter/2.Siwecal.tex
 第2章
-[25
+[29
 
 
 
 
 ]
+
+Package caption Warning: \label without proper reference on input line 41.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `dE/dx' on page 30 undefined on input line 39.
+
 File: Figure/Siwecal/dedx.png Graphic file (type bmp)
 <Figure/Siwecal/dedx.png>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26]
+
+Package caption Warning: \label without proper reference on input line 41.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `dE/dx' on page 30 undefined on input line 62.
+
+[30]
 File: Figure/Siwecal/photon.png Graphic file (type bmp)
 <Figure/Siwecal/photon.png>
- [27]
+ [31]
 File: Figure/Siwecal/photon_crosssection.png Graphic file (type bmp)
 <Figure/Siwecal/photon_crosssection.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28] [29]
+ [32] [33] [34]
 File: Figure/Siwecal/ECAL.png Graphic file (type bmp)
 <Figure/Siwecal/ECAL.png>
 File: Figure/Siwecal/SiW-ECAL.png Graphic file (type bmp)
 <Figure/Siwecal/SiW-ECAL.png>
 
-Overfull \hbox (17.95602pt too wide) in paragraph at lines 119--121
+Overfull \hbox (17.95602pt too wide) in paragraph at lines 126--128
  [] 
  []
 
-[30]
-Overfull \hbox (16.87901pt too wide) in paragraph at lines 134--144
+
+Overfull \hbox (16.87901pt too wide) in paragraph at lines 141--151
  [][] 
  []
 
 File: Figure/Siwecal/si_sensor.png Graphic file (type bmp)
 <Figure/Siwecal/si_sensor.png>
-[31] [32]
+[35] [36]
 File: Figure/Siwecal/skiroc2A.png Graphic file (type bmp)
 <Figure/Siwecal/skiroc2A.png>
 
-Overfull \hbox (57.7963pt too wide) in paragraph at lines 190--193
+Overfull \hbox (57.7963pt too wide) in paragraph at lines 197--200
  [] 
  []
 
-[33]
+[37]
 File: Figure/Siwecal/shortslab.png Graphic file (type bmp)
 <Figure/Siwecal/shortslab.png>
 File: Figure/Siwecal/core.png Graphic file (type bmp)
 <Figure/Siwecal/core.png>
-) [34] [35]
+) [38] [39]
 \openout2 = `Chapter/3.Beamtest.aux'.
 
  (./Chapter/3.Beamtest.tex
 第3章
-) [36
+) [40
 
 
 
@@ -826,7 +831,7 @@ File: Figure/Siwecal/core.png Graphic file (type bmp)
 第4章
 File: Figure/Deeplearning/perceptron.png Graphic file (type bmp)
 <Figure/Deeplearning/perceptron.png>
-[37
+[41
 
 
 
@@ -834,48 +839,125 @@ File: Figure/Deeplearning/perceptron.png Graphic file (type bmp)
 ]
 File: Figure/Deeplearning/mlp.png Graphic file (type bmp)
 <Figure/Deeplearning/mlp.png>
- [38]
-
-LaTeX Warning: Reference `softmax' on page 39 undefined on input line 87.
-
-[39] [40] [41]
+ [42] [43] [44] [45]
 File: Figure/Deeplearning/dnn.png Graphic file (type bmp)
 <Figure/Deeplearning/dnn.png>
- [42]
+ [46] [47]
 File: Figure/Deeplearning/messagepassing.png Graphic file (type bmp)
 <Figure/Deeplearning/messagepassing.png>
- [43] [44]
-
-LaTeX Warning: Citation `graphsage' on page 45 undefined on input line 195.
-
+ [48] [49]
 File: Figure/Deeplearning/sage.png Graphic file (type bmp)
 <Figure/Deeplearning/sage.png>
-[45]
-
-LaTeX Warning: Citation `gat' on page 46 undefined on input line 211.
-
+ [50]
 File: Figure/Deeplearning/gat.png Graphic file (type bmp)
 <Figure/Deeplearning/gat.png>
-) [46] [47]
+) [51]
 \openout2 = `Chapter/5.Flavortagging.aux'.
 
- (./Chapter/5.Flavortagging.tex
+
+(./Chapter/5.Flavortagging.tex
+
+Package xr Warning: 
+No file Deeplearning.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
 第5章
-) [48
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 18.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 18.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 18.
+
+Overfull \hbox (1.74275pt too wide) in paragraph at lines 18--63
+ [][] 
+ []
+
+[52
 
 
 
 
 ]
-Overfull \vbox (9.76073pt too high) has occurred while \output is active []
+
+Package caption Warning: \label without proper reference on input line 80.
+See the caption package documentation for explanation.
 
 
-[49]
+LaTeX Warning: Reference `data' on page 53 undefined on input line 67.
+
+[53]
+
+LaTeX Warning: Reference `dnnin' on page 54 undefined on input line 88.
+
+
+Package caption Warning: \label without proper reference on input line 111.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `dnnsetting' on page 54 undefined on input line 89.
+
+File: Figure/Flavortagging/dnn.png Graphic file (type bmp)
+<Figure/Flavortagging/dnn.png>
+[54] [55]
+File: Figure/Flavortagging/dnnout.png Graphic file (type bmp)
+<Figure/Flavortagging/dnnout.png>
+File: Figure/Flavortagging/dnncm.png Graphic file (type bmp)
+<Figure/Flavortagging/dnncm.png>
+ [56]
+
+LaTeX Warning: Reference `dnneff80' on page 57 undefined on input line 134.
+
+File: Figure/Flavortagging/dnneff_b.png Graphic file (type bmp)
+<Figure/Flavortagging/dnneff_b.png>
+[57]
+File: Figure/Flavortagging/dnneff_c.png Graphic file (type bmp)
+<Figure/Flavortagging/dnneff_c.png>
+ [58]
+
+Package caption Warning: \label without proper reference on input line 184.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `gnninput' on page 59 undefined on input line 158.
+
+File: Figure/Flavortagging/graphexample.png Graphic file (type bmp)
+<Figure/Flavortagging/graphexample.png>
+[59]
+File: Figure/Flavortagging/gnn.png Graphic file (type bmp)
+<Figure/Flavortagging/gnn.png>
+ [60]
+
+Package caption Warning: \label without proper reference on input line 222.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `gnnsetting' on page 61 undefined on input line 205.
+
+[61]
+
+Package caption Warning: \label without proper reference on input line 240.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `gnnoptuna' on page 62 undefined on input line 226.
+
+File: Figure/Flavortagging/gnnoutput.png Graphic file (type bmp)
+<Figure/Flavortagging/gnnoutput.png>
+[62]
+File: Figure/Flavortagging/gnncm.png Graphic file (type bmp)
+<Figure/Flavortagging/gnncm.png>
+) [63] [64]
 \openout2 = `Chapter/6.Conclusion.aux'.
 
  (./Chapter/6.Conclusion.tex
 第6章
-) [50
+) [65
 
 
 
@@ -885,7 +967,7 @@ Overfull \vbox (9.76073pt too high) has occurred while \output is active []
 
  (./Chapter/Appendix/7.AppendixA.tex
 付録A
-) [51
+) [66
 
 
 
@@ -893,14 +975,26 @@ Overfull \vbox (9.76073pt too high) has occurred while \output is active []
 ]
 \openout2 = `Chapter/8.Acknowledgement.aux'.
 
- (./Chapter/8.Acknowledgement.tex) [52
+ (./Chapter/8.Acknowledgement.tex) [67
 
 
+
+
+
+] (./MasterThesis.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 24.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 24.
+) [68
 
 
 
 ]
-No file MasterThesis.bbl.
 (./MasterThesis.aux (./Chapter/0.Abstract.aux) (./Chapter/1.Introduction.aux)
 (./Chapter/2.Siwecal.aux) (./Chapter/3.Beamtest.aux)
 (./Chapter/4.Deeplearning.aux) (./Chapter/5.Flavortagging.aux)
@@ -909,16 +1003,22 @@ No file MasterThesis.bbl.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7AB929402596C87DDEB900D1A09040A9;6936.
+
+Package rerunfilecheck Warning: File `MasterThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MasterThesis.out':
+(rerunfilecheck)             Before: 8A915D7578288A3C0859C7F72E00EE0D;7270
+(rerunfilecheck)             After:  B6A7B90A5A74CBE43C4750D7FCB1B479;7354.
  ) 
 Here is how much of TeX's memory you used:
- 16513 strings out of 478724
- 319722 string characters out of 5858392
- 583773 words of memory out of 5000000
- 34646 multiletter control sequences out of 15000+600000
- 514338 words of font info for 99 fonts, out of 8000000 for 9000
+ 16684 strings out of 478724
+ 323263 string characters out of 5858392
+ 586297 words of memory out of 5000000
+ 34786 multiletter control sequences out of 15000+600000
+ 520549 words of font info for 126 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,14n,79p,1251b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,16n,79p,1493b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (52 pages, 210944 bytes).
+Output written on MasterThesis.dvi (68 pages, 279020 bytes).
