@@ -15,6 +15,11 @@ S.~Catani, Y.~L. Dokshitzer, M.~Olsson, G.~Turnock, and B.~Webber,
   e+e－ annihilation,
 \newblock Physics Letters B {\bf 269}, 432 (1991).
 
+\bibitem{ecalsoft}
+A.~Irles,
+\newblock Siwecal-tb-analysis,
+\newblock (2019).
+
 \bibitem{graphsage}
 W.~L. Hamilton, R.~Ying, and J.~Leskovec,
 \newblock Inductive representation learning on large graphs,
