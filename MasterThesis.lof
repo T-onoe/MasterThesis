@@ -1,57 +1,60 @@
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 素粒子の標準模型（数値は質量[$\mathrm {GeV/c^2}$]）\relax }}{9}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces ヒッグスポテンシャル\relax }}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces ILCの概略図\relax }}{11}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces (左) ZH随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム。(右) ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=125$\ GeVであるとして、ZH随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している。またこのとき電子・陽電子の偏極は、それぞれ電子が左巻き90\%、右巻き10\%の80\%であり、陽電子は左巻き35\%、右巻き65\%の30\%としている。\relax }}{12}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{13}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces ILC250$\mathrm {GeV}$におけるSMヒッグス粒子の崩壊分岐比\relax }}{13}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1$\sigma $の範囲を表している。\relax }}{14}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 fb^{-1}$), 青：ILC1 (250$\mathrm {GeV}$) , 臙脂：ILC (500$\mathrm {GeV}$) , 薄橙：ILCTeV (1$\mathrm {TeV}$)）\relax }}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{15}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{16}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\relax }}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{21}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces ジェットの崩壊の様子。赤線が1次崩壊点、青線が2次崩壊点、緑線が3次崩壊点を由来とする飛跡を表す。\relax }}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 素粒子の標準模型（数値は質量[$\mathrm {GeV/c^2}$]）\relax }}{13}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces ヒッグスポテンシャル\relax }}{14}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces ILCの概略図\relax }}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces (左) ZH随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム。(右) ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=125$\ GeVであるとして、ZH随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している。またこのとき電子・陽電子の偏極は、それぞれ電子が左巻き90\%、右巻き10\%の80\%であり、陽電子は左巻き35\%、右巻き65\%の30\%としている。\relax }}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ILC250$\mathrm {GeV}$におけるSMヒッグス粒子の崩壊分岐比\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1$\sigma $の範囲を表している。\relax }}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 fb^{-1}$), 青：ILC1 (250$\mathrm {GeV}$) , 臙脂：ILC (500$\mathrm {GeV}$) , 薄橙：ILCTeV (1$\mathrm {TeV}$)）\relax }}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\relax }}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{25}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces ジェットの崩壊の様子。赤線が1次崩壊点、青線が2次崩壊点、緑線が3次崩壊点を由来とする飛跡を表す。\relax }}{27}{figure.caption.26}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 水素(液体)、ヘリウム(気体)、炭素、アルミニウム、鉄、スズ、および鉛における平均エネルギー損失と、入射粒子（ミューオン、パイ中間子、陽子）の速度の関係。\relax }}{27}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 光子と物質の相互作用\relax }}{28}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 光子と鉛の相互作用における断面積と光子のエネルギーの関係。${\sigma }_{p.e.}$は光電効果を、${\sigma }_{Compton}$はコンプトン散乱を、${\kappa }_{e}, {\kappa }_{nuc}$は電子陽電子対生成を指す。\relax }}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図\relax }}{31}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\relax }}{31}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンセンサーの仕様\relax }}{32}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces シリコンパッドセンサー\relax }}{32}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{34}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces short slabの構造\relax }}{35}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces (左) FEV13 (右) COB\relax }}{36}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 多層読み出しのためのCOREモジュール\relax }}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 水素(液体)、ヘリウム(気体)、炭素、アルミニウム、鉄、スズ、および鉛における平均エネルギー損失と、入射粒子（ミューオン、パイ中間子、陽子）の速度の関係。\relax }}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 光子と物質の相互作用\relax }}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 光子と鉛の相互作用における断面積と光子のエネルギーの関係。${\sigma }_{p.e.}$は光電効果を、${\sigma }_{Compton}$はコンプトン散乱を、${\kappa }_{e}, {\kappa }_{nuc}$は電子陽電子対生成を指す。\relax }}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図\relax }}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\relax }}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンセンサーの仕様\relax }}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces シリコンパッドセンサー\relax }}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces short slabの構造\relax }}{39}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces (左) FEV13 (右) COB\relax }}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 多層読み出しのためのCOREモジュール\relax }}{40}{figure.caption.39}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \relax }}{38}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces セットアップの全体図。黄枠：AHCAL、青枠：SiW-ECAL、赤：ビーム位置\relax }}{38}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces SiW-ECALのプロトタイプモジュールと電源供給、読み出しシステム\relax }}{39}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces SiW-ECAL読み出しソフトウェアにおけるイベントモニター (左) ヒットマップ (右) 各層あたりのヒット数\relax }}{40}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 各ビーム種類におけるヒットマップ。左上から0層右上が3層、右下が14層と順に並んでいる。\relax }}{41}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 40/60/100/150$\mathrm {GeV}$の電子ビームにおけるペデスタル\relax }}{42}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces ペデスタルをガウシアンフィットした際のパラメータ。横軸がチップを、縦軸がチャンネル番号を表しており、それぞれ全層、全SCAでの可視化のため、層数やSCAをかけた値となっている。(左) ガウシアンの中央値 (右) ガウシアンの幅の大きさ\relax }}{42}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ダブルペデスタルの例\relax }}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces CERNの全体図\relax }}{42}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces セットアップの全体図。黄枠：AHCAL、青枠：SiW-ECAL、赤：ビーム位置\relax }}{43}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SiW-ECALのプロトタイプモジュールと電源供給、読み出しシステム\relax }}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SiW-ECAL読み出しソフトウェアにおけるイベントモニター (左) ヒットマップ (右) 各層あたりのヒット数\relax }}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 各ビーム種類におけるヒットマップ。左上から0層右上が3層、右下が14層と順に並んでいる。\relax }}{46}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 40/60/100/150$\mathrm {GeV}$の電子ビームにおけるペデスタル\relax }}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ペデスタルをガウシアンフィットした際のパラメータ。横軸がチップを、縦軸がチャンネル番号を表しており、それぞれ全層、全SCAでの可視化のため、層数やSCAをかけた値となっている。(左) ガウシアンの中央値 (右) ガウシアンの幅の大きさ\relax }}{47}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ダブルペデスタルの例\relax }}{48}{figure.caption.49}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces パーセプトロン\relax }}{44}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 多層パーセプトロン（ニューラルネットワーク）\relax }}{45}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 活性化関数のグラフ。Forwardは順方向、backwardは逆方向 (後に誤差逆伝播法で説明) の際の演算を表す。\relax }}{47}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ディープニューラルネットワーク\relax }}{52}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces (左) 4つのノードを持つ全結合グラフニューラルネットワーク。$h_i$はノード表現を表す。 (右) メッセージパッシングの処理。\relax }}{53}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces GraphSAGEにおける処理(1. サンプリング, 2. 隣接からの集約, 3. 学習結果による推論)\relax }}{55}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces (左) 重みベクトル$\mathbf {a}$を用いたAttention処理。 (右) 1つのノード$\mathbf {h}_1$に対する隣接ノード$\mathbf {h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\mathbf {h'}_1$\relax }}{56}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces パーセプトロン\relax }}{49}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 多層パーセプトロン（ニューラルネットワーク）\relax }}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 活性化関数のグラフ。Forwardは順方向、backwardは逆方向 (後に誤差逆伝播法で説明) の際の演算を表す。\relax }}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ディープニューラルネットワーク\relax }}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces (左) 4つのノードを持つ全結合グラフニューラルネットワーク。$h_i$はノード表現を表す。 (右) メッセージパッシングの処理。\relax }}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces GraphSAGEにおける処理(1. サンプリング, 2. 隣接からの集約, 3. 学習結果による推論)\relax }}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces (左) 重みベクトル$\mathbf {a}$を用いたAttention処理。 (右) 1つのノード$\mathbf {h}_1$に対する隣接ノード$\mathbf {h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\mathbf {h'}_1$\relax }}{61}{figure.caption.66}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces フレーバー識別のためのディープニューラルネットワークの概略図\relax }}{60}{figure.caption.68}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces (左)学習の経過における損失関数。(右)学習の経過における学習精度\relax }}{61}{figure.caption.70}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces ディープニューラルネットワークの学習における混合行列。縦軸が実際の答えを、横軸が学習結果を表している。\relax }}{62}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率を示している。\relax }}{63}{figure.caption.72}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{63}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 今回の学習に用いたグラフデータの一例。ノードは飛跡を、グラフ全体が1つのジェットに対応する。\relax }}{65}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces フレーバー識別のためのグラフデータを用いたネットワークの概略図\relax }}{66}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces (上)学習の経過における損失関数。(左下) 学習の経過におけるノードの学習精度、(中央下) リンクの学習精度、(右下) グラフの学習精度。\relax }}{68}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces (左) ノード分類の混合行列、(中央) リンク予測の混合行列、(右) グラフ識別の混合行列。\relax }}{68}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces フレーバー識別のためのディープニューラルネットワークの概略図\relax }}{65}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces (左)学習の経過における損失関数。(右)学習の経過における学習精度\relax }}{66}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ディープニューラルネットワークの学習における混合行列。縦軸が実際の答えを、横軸が学習結果を表している。\relax }}{67}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率を示している。\relax }}{68}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{68}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 今回の学習に用いたグラフデータの一例。ノードは飛跡を、グラフ全体が1つのジェットに対応する。\relax }}{70}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces ノードラベル毎のデータ数\relax }}{71}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces フレーバー識別のためのグラフデータを用いたネットワークの概略図\relax }}{72}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces (上)学習の経過における損失関数。(左下) 学習の経過におけるノードの学習精度、(中央下) リンクの学習精度、(右下) グラフの学習精度。\relax }}{74}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces (左) ノード分類の混合行列、(中央) リンク予測の混合行列、(右) グラフ識別の混合行列。\relax }}{75}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率を示している。\relax }}{76}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{76}{figure.caption.87}%
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

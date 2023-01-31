@@ -6,20 +6,32 @@
 \chapter{ビームテストによる評価実験} \label{sec:Beamtest}
 これまでに作成されたSiW-ECALの技術プロトタイプ（FEVおよびCOB）の性能評価実験を、2023年6月7日から2023年6月22日の期間にCERN SPS加速器のビームラインにて行った。本実験の主な目的は、電磁カロリメータとハドロンカロリメータの技術プロトタイプを同じビーム軸上に設置し、同時に運転を行いデータを取得すること。また、これまでの評価実験の中でも最高エネルギーのハドロンビームを用いて15層のSiW-ECALの評価を行うことの2点であった。また本実験におけるハドロンカロリメータは、同じくCALICEグループにおいてドイツやチェコが中心となって開発を進めているAHCALを用いた。以下では実験の詳細と、結果について述べる。
 \section{ビームライン}
-ビームテストは、フランスとスイスの国境付近に位置する欧州原子核研究機構 (CERN) の、SPS (Super Proton Synchrotron) 加速器のビームラインを用いて行った。SPSは、現在LHC (Large Hadron Collider) の前段加速器として利用されており、陽子シンクロトロンから来た26$\mathrm{GeV}$の陽子を、周長7kmの加速器によって$400\sim 450 \mathrm{GeV}$まで加速している。SPSのビームラインでは、加速した陽子ビームに対してターゲットを用いることで、電子、ミューオン/パイ中間子の2次ビームを運動量$10\sim 400 \mathrm{GeV}$で得ることができる。本実験ではこれらのビームを用いて、Northエリアにあるビームラインで実験を行った。実験に用いたビームパラメータを表\ref{beamparam}に示す。\\
+ビームテストは、フランスとスイスの国境付近に位置する欧州原子核研究機構 (CERN) の、SPS (Super Proton Synchrotron) 加速器のビームラインを用いて行った。SPSは、現在LHC (Large Hadron Collider) の前段加速器として利用されており、陽子シンクロトロンから来た26$\mathrm{GeV}$の陽子を、周長7kmの加速器によって$400\sim 450 \mathrm{GeV}$まで加速している。SPSのビームラインでは、加速した陽子ビームに対してターゲットを用いることで、電子、ミューオン/パイ中間子の2次ビームを運動量$10\sim 400 \mathrm{GeV}$で得ることができる。本実験ではこれらのビームを用いて、NorthエリアにあるH2Aビームラインで実験を行った。実験に用いたビームパラメータを表\ref{beamparam}に示す。\\
 \begin{figure}[H]
- \begin{minipage}[h]{0.45\linewidth}
 	\begin{center}
- \includegraphics[keepaspectratio, scale=0.3]
+ \includegraphics[keepaspectratio, scale=0.7]
  	{Figure/Beamtest/cern.png}
- 		\caption{}
+ 		\caption{CERNの全体図}
 	\end{center}
- \end{minipage}
 \end{figure}
+\begin{table}[H]
+ \centering
+ \begin{tabular}{c c}
+ \hline
+Momentum range & 10-200$[ \mathrm{GeV}/ c ]$\\
+Electron purity & 10-99.5\%\\
+Max $\delta p / p$ $2\%$& \\
+Beam height from floor & 2460$[ \mathrm{mm}]$\\
+ \hline
+ \end{tabular}
+ \label{layer}
+ \caption{}
+\end{table}
+
 \section{実験セットアップ}
 \subsection{測定機器のセットアップ}
 本実験でのセットアップの概観を図\ref{setup1}に示す。図中右手からビームが照射され、ILDの構成と同様に上流側にSiW-ECALが、下流側にAHCALを設置した。本論文ではAHCALの解析結果については触れないため、説明を省略する。一方でSiW-ECALのプロトタイプは、FEVを13層（うちFEV11が）COBを2層組み合わせた計15層からなる検出層と鉛板15層の吸収層からなるモジュールを組み立てた。今回のビームテストの検出層は、最も良い性能が期待できるFEV13を前方に設置し、性能比較のためにCOBを加えた構成となった。15層の検出層において、センサーと読み出しボードに供給する電源は、15層に対して図\ref{setup2}左のように並列で印加した。また、信号はカプトンケーブルを通して15層分の信号を一括してCOREモジュールに送り、PCで読み出しを行った。\\
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
  \includegraphics[keepaspectratio, scale=0.3]
  	{Figure/Beamtest/setup1.png}
@@ -28,7 +40,7 @@
 		\end{center}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
  \includegraphics[keepaspectratio, scale=0.2]
  	{Figure/Beamtest/setup2.png}
@@ -67,7 +79,7 @@
 \subsection{信号読み出し}
 ECALとHCALは独立にDAQを行うが、本実験ではEUDAQという読み出しフレームワークによってHCALと同期した読み出しを行った。EUDAQでは、ECALとHCALの間でCCC (Clock and Control Card) を同期させており、CCCではクロック、スタート、ストップ信号をPCへ送っているため、PC上で同じBCIDのイベントを収集することができる。\\
 また、ECALでは専用のDAQソフトウェア\cite{ecalsoft}が存在しており、DAQのみでなくチャンネル単位での閾値の設定やイベントのモニター (図\ref{monitor}) が可能となっている。データはraw形式で保存され、解析用のソフトウェアを通してrootファイルへ変換し解析に利用することができる。
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
  \includegraphics[keepaspectratio, scale=0.2]
  	{Figure/Beamtest/monitor.png}
@@ -126,8 +138,8 @@ ECALとHCALは独立にDAQを行うが、本実験ではEUDAQという読み出�
 また、チャンネルによって図\ref{dp}に示すような2つのピークを持つペデスたるが確認された。このペデスタルピークが2つ見える現象をダブルぺデスタルと呼んで調査を行なった。
 \begin{figure}[H]
 \begin{center}
- \includegraphics[keepaspectratio, scale=0.3]
- 	{Figure/Beamtest/pedestal.png}
+ \includegraphics[keepaspectratio, scale=0.5]
+ 	{Figure/Beamtest/dp.png}
  		\caption{ダブルペデスタルの例}
 		\label{dp}
 \end{center}
