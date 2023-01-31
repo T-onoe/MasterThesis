@@ -1,8 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{gaugehiggs}
 藤井恵介,
 \newblock リニアコライダーの物理.
+
+\bibitem{higgspotential}
+S.~D. Bass, A.~D. Roeck, and M.~Kado,
+\newblock The higgs boson implications and prospects for future discoveries,
+\newblock Nature Review Physics  (2021).
+
+\bibitem{decaybsm}
+K.~Fujii \emph{et~al.},
+\newblock Physics case for the international linear collider,
+\newblock (2015).
+
+\bibitem{tdr2}
+H.~Baer \emph{et~al.},
+\newblock The international linear collider: Technical design report,
+\newblock (2013).
 
 \bibitem{lcfiplus}
 T.~Suehara and T.~Tanabe,
@@ -19,6 +34,16 @@ S.~Catani, Y.~L. Dokshitzer, M.~Olsson, G.~Turnock, and B.~Webber,
 A.~Irles,
 \newblock Siwecal-tb-analysis,
 \newblock (2019).
+
+\bibitem{dnnbook}
+斎藤康毅,
+\newblock ゼロから作るdeeplearning,
+\newblock  {\bf 1} (2016).
+
+\bibitem{gnnreview}
+J.~Zhou \emph{et~al.},
+\newblock Graph neural networks: A review of methods and application,
+\newblock KeAi  (2020).
 
 \bibitem{graphsage}
 W.~L. Hamilton, R.~Ying, and J.~Leskovec,
