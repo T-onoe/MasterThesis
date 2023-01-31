@@ -56,8 +56,7 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces (左) ノード分類の混合行列、(中央) リンク予測の混合行列、(右) グラフ識別の混合行列。\relax }}{72}{figure.caption.86}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率を示している。\relax }}{73}{figure.caption.87}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{74}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{74}{figure.caption.89}%
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces xy平面\relax }}{78}{figure.caption.92}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces sz平面\relax }}{79}{figure.caption.93}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces xy平面\relax }}{78}{figure.caption.91}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces sz平面\relax }}{79}{figure.caption.92}%
