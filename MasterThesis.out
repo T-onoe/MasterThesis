@@ -74,22 +74,20 @@
 \BOOKMARK [3][]{section*.64}{Spatial Graph Convolution}{subsection.4.2.2}% 73
 \BOOKMARK [2][]{subsection.4.2.3}{Graph Attention Network \(GAT\)}{section.4.2}% 74
 \BOOKMARK [0][]{chapter.5}{深層学習を用いたジェットフレーバー識別}{}% 75
-\BOOKMARK [1][]{section.5.1}{ジェットフレーバー識別アルゴリズム}{chapter.5}% 76
-\BOOKMARK [2][]{subsection.5.1.1}{事象について}{section.5.1}% 77
-\BOOKMARK [2][]{subsection.5.1.2}{LCFIPlusにおけるフレーバー識別}{section.5.1}% 78
-\BOOKMARK [1][]{section.5.2}{イベントサンプル}{chapter.5}% 79
-\BOOKMARK [1][]{section.5.3}{ディープニューラルネットワークによる実装}{chapter.5}% 80
-\BOOKMARK [2][]{subsection.5.3.1}{実装目的}{section.5.3}% 81
-\BOOKMARK [2][]{subsection.5.3.2}{入力変数とネットワークアーキテクチャ}{section.5.3}% 82
-\BOOKMARK [2][]{subsection.5.3.3}{ハイパーパラメータの最適化}{section.5.3}% 83
-\BOOKMARK [2][]{subsection.5.3.4}{学習評価}{section.5.3}% 84
-\BOOKMARK [1][]{section.5.4}{グラフニューラルネットワークによる実装}{chapter.5}% 85
-\BOOKMARK [2][]{subsection.5.4.1}{実装目的}{section.5.4}% 86
-\BOOKMARK [2][]{subsection.5.4.2}{飛跡によるグラフデータセット}{section.5.4}% 87
-\BOOKMARK [2][]{subsection.5.4.3}{ネットワークアーキテクチャ}{section.5.4}% 88
-\BOOKMARK [2][]{subsection.5.4.4}{ハイパーパラメータの最適化}{section.5.4}% 89
-\BOOKMARK [2][]{subsection.5.4.5}{学習評価}{section.5.4}% 90
-\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 91
-\BOOKMARK [0][]{appendix.A}{付録A}{}% 92
-\BOOKMARK [1][]{section.A.1}{LCIO parameter}{appendix.A}% 93
-\BOOKMARK [0][]{appendix*.91}{参考文献}{}% 94
+\BOOKMARK [1][]{section.5.1}{イベントサンプルと先行研究}{chapter.5}% 76
+\BOOKMARK [2][]{subsection.5.1.1}{LCFIPlusにおけるフレーバー識別}{section.5.1}% 77
+\BOOKMARK [1][]{section.5.2}{ディープニューラルネットワークによる実装}{chapter.5}% 78
+\BOOKMARK [2][]{subsection.5.2.1}{実装目的}{section.5.2}% 79
+\BOOKMARK [2][]{subsection.5.2.2}{入力変数とネットワークアーキテクチャ}{section.5.2}% 80
+\BOOKMARK [2][]{subsection.5.2.3}{ハイパーパラメータの最適化}{section.5.2}% 81
+\BOOKMARK [2][]{subsection.5.2.4}{学習評価}{section.5.2}% 82
+\BOOKMARK [1][]{section.5.3}{グラフニューラルネットワークによる実装}{chapter.5}% 83
+\BOOKMARK [2][]{subsection.5.3.1}{実装目的}{section.5.3}% 84
+\BOOKMARK [2][]{subsection.5.3.2}{飛跡によるグラフデータセット}{section.5.3}% 85
+\BOOKMARK [2][]{subsection.5.3.3}{ネットワークアーキテクチャ}{section.5.3}% 86
+\BOOKMARK [2][]{subsection.5.3.4}{ハイパーパラメータの最適化}{section.5.3}% 87
+\BOOKMARK [2][]{subsection.5.3.5}{学習評価}{section.5.3}% 88
+\BOOKMARK [0][]{chapter.6}{まとめと今後の展望}{}% 89
+\BOOKMARK [0][]{appendix.A}{付録A}{}% 90
+\BOOKMARK [1][]{section.A.1}{LCIO parameter}{appendix.A}% 91
+\BOOKMARK [0][]{appendix*.94}{参考文献}{}% 92

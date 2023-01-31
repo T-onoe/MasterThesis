@@ -2,7 +2,7 @@
 \documentclass[
   12pt,                        % フォントサイズ
   openany,                     % 省の始まりを奇数ページに限定しない
-  draft,                       % 下書き用 画像を読み込まないのでタイプセットが早く済む
+  %draft,                       % 下書き用 画像を読み込まないのでタイプセットが早く済む
 ]{jsbook}
 
 %====================================================================================================
@@ -17,9 +17,10 @@
 % \usepackage{ascmac}            % 罫線付きテキスト：\begin{screen}, \begin{itembox}, ...
 % \usepackage{fancybox}          % 罫線付きテキスト：\doublebox{}, \ovalbox{}, ...
 \usepackage{fancyhdr}          % fancy header環境
+\usepackage{comment}    
 % \usepackage{mediabb}           % \includegraphycsでpdfを読み込む, pngとかが読めなくなる副作用あり
 % \usepackage{longtable}         % 頁をまたぐ表の作成
-% \usepackage{multirow}          % 表のセルを縦に結合
+\usepackage{multirow}          % 表のセルを縦に結合
 \usepackage[dvipdfmx,          % PDF環境
  bookmarks        =true,       % 目次の作成するか
  bookmarksnumbered=false,      % 節を目次に載せるか
