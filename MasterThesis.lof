@@ -2,17 +2,17 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces 素粒子の標準模型（数値は質量[$\mathrm {GeV/c^2}$]）\relax }}{13}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces ヒッグスポテンシャル\cite {higgspotential}\relax }}{14}{figure.caption.5}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces ILCの概略図\relax }}{15}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces (左) ZH随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム。(右) ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=125$\ GeVであるとして、ZH随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している。またこのとき電子・陽電子の偏極は、それぞれ電子が左巻き90\%、右巻き10\%の80\%であり、陽電子は左巻き35\%、右巻き65\%の30\%としている。\relax }}{16}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces ILC250$\mathrm {GeV}$におけるSMヒッグス粒子の崩壊分岐比\relax }}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1$\sigma $の範囲を表している。\relax }}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 fb^{-1}$), 青：ILC1 (250$\mathrm {GeV}$) , 臙脂：ILC (500$\mathrm {GeV}$) , 薄橙：ILCTeV (1$\mathrm {TeV}$)）\cite {decaybsm}\relax }}{19}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{19}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{20}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces (左) ZH随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム。(右) ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=125$\ GeVであるとして、ZH随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している。またこのとき電子が左巻き成分 90\ \%、右巻き成分 10\ \% の偏極度 80\ \% であり、陽電子は左巻き成分 35\ \%、右巻き成分 65\ \% の偏極度 30\ \% としている。\relax }}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ILC250$\mathrm {GeV}$におけるSMヒッグス粒子の崩壊分岐比\relax }}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1$\sigma $の範囲を表している。\relax }}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 \mathrm {fb^{-1}}$), 青：ILC1 (250$\mathrm {GeV}$) , 臙脂：ILC (500$\mathrm {GeV}$) , 薄橙：ILCTeV (1$\mathrm {TeV}$)）\cite {decaybsm}\relax }}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{22}{figure.caption.13}%
 \contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\relax }}{23}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{23}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{25}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{26}{figure.caption.21}%
 \contentsline {figure}{\numberline {1.15}{\ignorespaces ジェットの崩壊の様子。赤線が1次崩壊点、青線が2次崩壊点、緑線が3次崩壊点を由来とする飛跡を表す。\relax }}{27}{figure.caption.26}%
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 水素(液体)、ヘリウム(気体)、炭素、アルミニウム、鉄、スズ、および鉛における平均エネルギー損失と、入射粒子（ミューオン、パイ中間子、陽子）の速度の関係。\relax }}{31}{figure.caption.29}%
