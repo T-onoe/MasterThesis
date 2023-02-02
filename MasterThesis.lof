@@ -5,28 +5,26 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Zh随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム。\relax }}{16}{figure.caption.7}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=125 \mathrm {GeV}$であるとして、Zh随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している。\relax }}{17}{figure.caption.8}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{17}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces ILC250$\mathrm {GeV}$におけるSMヒッグス粒子の崩壊分岐比\relax }}{17}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1$\sigma $の範囲を表している。\relax }}{18}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 \mathrm {fb^{-1}}$), 青：ILC1 (250$\mathrm {GeV}$) , 臙脂：ILC (500$\mathrm {GeV}$) , 薄橙：ILCTeV (1$\mathrm {TeV}$)）\cite {decaybsm}\relax }}{19}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{19}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{20}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{21}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ILDの断面図\relax }}{23}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces ILD崩壊点検出器の構造\relax }}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces ジェットの崩壊の様子。赤線が1次崩壊点、青線が2次崩壊点、緑線が3次崩壊点を由来とする飛跡を表す。\relax }}{27}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1\, $\sigma $の範囲を表している。\relax }}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 \mathrm {fb^{-1}}$), 青：ILC1 (250\, $\mathrm {GeV}$) , 臙脂：ILC (500\, $\mathrm {GeV}$) , 薄橙：ILCTeV (1\, $\mathrm {TeV}$)）\cite {decaybsm}\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合$e^+e^- \rightarrow Zhh$\relax }}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces ヒッグス粒子の質量補正となるフェルミオンループ\relax }}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces (左) ILD (右) SiD の全体図\relax }}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\relax }}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces ジェットの崩壊の様子。赤線が1次崩壊点、青線が2次崩壊点、緑線が3次崩壊点を由来とする飛跡を表す。\relax }}{27}{figure.caption.27}%
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 水素(液体)、ヘリウム(気体)、炭素、アルミニウム、鉄、スズ、および鉛における平均エネルギー損失と、入射粒子（ミューオン、パイ中間子、陽子）の速度の関係。\relax }}{31}{figure.caption.30}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 光子と物質の相互作用\relax }}{32}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 光子と鉛の相互作用における断面積と光子のエネルギーの関係。${\sigma }_{p.e.}$は光電効果を、${\sigma }_{Compton}$はコンプトン散乱を、${\kappa }_{e}, {\kappa }_{nuc}$は電子陽電子対生成を指す。\relax }}{34}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図\relax }}{36}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\relax }}{36}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンセンサーの仕様\relax }}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces シリコンパッドセンサー\relax }}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{38}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces short slabの構造\relax }}{40}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces (左) FEV13 (右) COB\relax }}{40}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 多層読み出しのためのCOREモジュール\relax }}{40}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンパッドセンサー\relax }}{36}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{38}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces short slabの構造\relax }}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces (左) FEV13 (右) COB\relax }}{40}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 多層読み出しのためのCOREモジュール\relax }}{40}{figure.caption.40}%
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces CERNの全体図\relax }}{42}{figure.caption.41}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces セットアップの全体図。黄枠：AHCAL、青枠：SiW-ECAL、赤：ビーム位置\relax }}{43}{figure.caption.43}%

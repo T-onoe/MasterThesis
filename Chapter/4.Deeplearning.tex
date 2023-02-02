@@ -7,7 +7,7 @@
 本章では、本研究で提案する手法である深層学習の理論を述べる。初めに、深層学習の基礎技術であるパーセプトロンについて説明する。そしてパーセプトロンを多層にしたニューラルネットの構造と計算技術について説明する。最後に深層学習のネットワークについて、特にグラフ構造のデータを扱うグラフニューラルネットワークについて紹介する。
 \section{ニューラルネットワーク}
 \subsection{パーセプトロン（単層ニューラルネットワーク）}
-ニューラルネットワークの基礎となるパーセプトロンは、ローゼンブラットにより1957年に考案された。パーセプトロンの基本構造は、信号を入力として受け取り論理回路を通して出力信号を出すものである。図\ref{perceptron}に最も基本的なパーセプトロンの例を示す。\cite{dnnbook}\\
+ニューラルネットワークの基礎となるパーセプトロンは、ローゼンブラットにより1957年に考案された。パーセプトロンの基本構造は、信号を入力として受け取り論理回路を通して出力信号を出すものである。図\ref{perceptron}に最も基本的なパーセプトロンの例\cite{dnnbook}を示す。\\
 \begin{figure}[H]
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.15]
@@ -156,7 +156,7 @@ y_k = \frac{\exp(x_k)}{\sum_{i=1}^n \exp(x_i)}
 ニューラルネットワークでは、前処理を行うことで識別性能の向上や学習の高速化を見込むことができる。前処理の手法には以下にあげるようなものがあり、データ全体の分布を考慮して適応する必要がある。
 \begin{itemize}
  \item 正規化：最小値を0、最大値を1とするスケーリング
- \begin{align}x'_i = \frac{(x_i - min(x))}{max(x)-min(x)}\end{align}
+ \begin{align}x'_i = \frac{(x_i - \mathrm{min}(x))}{\mathrm{max}(x)-\mathrm{min}(x)}\end{align}
  \item 標準化：平均を0、分散を1とするスケーリング
  \begin{align}x'_i = \frac{(x_i - \bar{x})}{\sigma}\end{align}
  \item 対数変換：外れ値による分散を小さくし、0付近の値を区別しやすくする。
@@ -185,9 +185,9 @@ y_k = \frac{\exp(x_k)}{\sum_{i=1}^n \exp(x_i)}
 AdaGradでは、モーメンタムと同様にSGDの振動を抑えるが、学習率を減衰させることによってこれを達成するアルゴリズムである。AdaGradの更新方法は次のような式で表される。
 \begin{align}
 \mathbf{h} \leftarrow \mathbf{h} + \frac{\partial L}{\partial \mathbf{W}} \odot \frac{\partial L}{\partial \mathbf{W}} \\
-\mathbf{W} \leftarrow \mathbf{W} - \eta \frac{1}{\sqrt{h}} \frac{\partial L}{\partial \mathbf{W}}
+\mathbf{W} \leftarrow \mathbf{W} - \eta \frac{1}{\sqrt{\mathbf{h}}} \frac{\partial L}{\partial \mathbf{W}}
 \end{align}
-ここで、$\mathbf{h}$はこれまでの勾配の値を二乗和として保持する役割を持つ。そして$\eta \frac{1}{\sqrt{h}}$によって学習率のスケールを調整することができる。これによって動いた大きさに合わせてパラメータ毎に学習率の減衰を行うことができる。
+ここで、$\odot$は要素ごとの積を行うアダマール積を表し、$\mathbf{h}$はこれまでの勾配の値を二乗和として保持する役割を持つ。そして$\eta \frac{1}{\sqrt{\mathbf{h}}}$によって学習率のスケールを調整することができる。これによって動いた大きさに合わせてパラメータ毎に学習率の減衰を行うことができる。
 \item \textbf{Adam}\\
 Adamはモーメントの考えとAdaGradの考えを融合させた手法であり、モーメントの変数2つと前のステップまでの学習係数を表す変数1つの3つをハイパーパラメータにもつ。これによって効率的にパラメータ空間を探索することができる。
 \item \textbf{RAdam}\\
