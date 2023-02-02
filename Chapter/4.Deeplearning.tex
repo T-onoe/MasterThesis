@@ -69,9 +69,9 @@ y_n = h(w_1^1 x_1^1 + w_2^1 x_2^1 + w_3^1 x_3^1 + \cdots + w_n^1 x_n^1 + b^1)
 		\begin{equation}
 			h(a) = \frac{1}{1+\exp(-a)}
 		\end{equation}
-	\item $tanh$関数
+	\item $\tanh$関数
 		\begin{equation}
-			h(a) = tanh(a)
+			h(a) = \tanh(a)
 	\end{equation}
 	\item ReLU関数（ランプ関数）
 		\begin{align}
@@ -130,7 +130,7 @@ y_k = \frac{\exp(x_k)}{\sum_{i=1}^n \exp(x_i)}
 先述の通り、ニューラルネットワークでは学習によって重みを更新するが、その際に学習結果を正しい答えと照らし合わせて評価し、その評価値を最小にするように重みを更新する。この評価関数を損失関数 (Loss function) と呼ぶ。損失関数には主に以下の2つが用いられる。
 \begin{itemize}
 	\item 二乗和誤差関数  (Mean Squared Error) \\
-		二乗和誤差関数は、以下の式\ref{mse}で定義される関数である。ここで、$yk$はニューラルネットワークの出力、$t_k$は正解ラベルを表し、kはデータの次元数を表す。二乗和誤差関数の微分値はyの一次関数となっていることから、出力・正解ラベルが共に連続値であり恒等関数を出力層に持つ回帰問題で採用される。
+		二乗和誤差関数は、以下の式\ref{mse}で定義される関数である。ここで、$y_k$はニューラルネットワークの出力、$t_k$は正解ラベルを表し、kはデータの次元数を表す。二乗和誤差関数の微分値はyの一次関数となっていることから、出力・正解ラベルが共に連続値であり恒等関数を出力層に持つ回帰問題で採用される。
 		\begin{align}
 			\label{mse}
 			L = \frac{1}{2}\sum_k {(y_k-t_k)}^2
@@ -139,7 +139,7 @@ y_k = \frac{\exp(x_k)}{\sum_{i=1}^n \exp(x_i)}
 		交差エントロピー誤差は、以下の式\ref{cee}で定義される関数である。ここで、$y_k$はニューラルネットワークの出力で、$t_k$はone-hot表現の正解ラベルを表す。交差エントロピー誤差は主にソフトマックス関数を出力層に用いる分類問題において採用される。
 		\begin{align}
 			\label{cee}
-			L = - \sum_k t_k log(y_k)
+			L = - \sum_k t_k \log(y_k)
 		\end{align}
 \end{itemize}
 
@@ -240,7 +240,7 @@ GNNのアーキテクチャにおいて、グラフは集合$\mathcal{G} = (\mat
 \subsection{Graph Convolution Network (GCN)}
 GCNとは、メッセージパッシングにおいて畳み込み（Convolution）を用いる手法である。一般的に機械学習における畳み込みは、あるフィルターを用いて対象と掛け合わせたものの和をとることで、周辺の情報を含ませることのできる処理であり、画像処理などにおいて広く用いられている。グラフの畳み込みにおいてはスペクトルによるアプローチと空間的なアプローチの2つがあり、以下ではそれぞれについて説明する。
 \subsubsection{Spectral Graph Convolution}
-スペクトルによる畳み込みは信号処理の考えに基づいたアプローチである。音声などの信号処理においては、関数をフーリエ変換によって周波性成分に変換し、ノイズ除去をして逆変換する。これをグラフデータに置き換えると、グラフラプラシアンの固有ベクトルが張る空間への変換・逆変換となる。グラフ信号を$\mathbf{x}$とすると、グラフフーリエ変換$\mathscr{F}(\mathbf{x})$、逆グラフフーリエ変換$\mathscr{F}^{-1}(\mathbf{x})$は次のように表される。
+スペクトルによる畳み込みは信号処理の考えに基づいたアプローチである。音声などの信号処理においては、関数をフーリエ変換によって周波数成分に変換し、ノイズ除去をして逆変換する。これをグラフデータに置き換えると、グラフラプラシアンの固有ベクトルが張る空間への変換・逆変換となる。グラフ信号を$\mathbf{x}$とすると、グラフフーリエ変換$\mathscr{F}(\mathbf{x})$、逆グラフフーリエ変換$\mathscr{F}^{-1}(\mathbf{x})$は次のように表される。
 \begin{align}
 \mathscr{F}(\mathbf{x}) &= \mathbf{U}^T\mathbf{x}\\
 \mathscr{F}^{-1}(\mathbf{x}) &= \mathbf{U}\mathbf{x}
@@ -251,7 +251,7 @@ GCNとは、メッセージパッシングにおいて畳み込み（Convolution
 \mathbf{g} \star \mathbf{x} &= \mathscr{F}^{-1}(\mathscr{F}(\mathbf{g}) \odot \mathscr{F}(\mathbf{x}))\\
 &= \mathbf{U}(\mathbf{U}^T \mathbf{g} \odot \mathbf{U}^T \mathbf{x})
 \end{align}
-$\mathbf{g} \star \mathbf{x}$は畳み込み演算を、$\mathbf{U}^T \mathbf{g}$はスペクトルにおける畳み込みのフィルターを表す。学習により更新される集合である$\mathbf{g}$に焦点を当ててより単純化すると、畳み込みは次のように書くことができる。\\
+$\mathbf{g} \star \mathbf{x}$は畳み込み演算を、$\mathbf{U}^T \mathbf{g}$はスペクトルにおける畳み込みのフィルターを、$\odot$は要素ごとの積を行うアダマール積を表す。学習により更新される集合である$\mathbf{g}$に焦点を当ててより単純化すると、畳み込みは次のように書くことができる。\\
 \begin{align}
 \mathbf{g} \star \mathbf{x} &= \mathbf{U} \mathbf{g} \mathbf{U}^T \mathbf{x}
 \end{align}
