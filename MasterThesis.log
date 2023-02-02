@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  2 FEB 2023 23:45
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  3 FEB 2023 06:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -166,6 +166,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+\symboldsymbols=\mathgroup10
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup11
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -376,7 +388,7 @@ Package: mathcomp 2001/01/07 v0.1f (TBo)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\symTC=\mathgroup8
+\symTC=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
 (Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
 LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
@@ -636,25 +648,30 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 13.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+(Font)              scaled to size 6.72699pt on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+)
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 14.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 14.
+)
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -690,10 +707,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
  [7] (./MasterThesis.lof [8
 
-]
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 44.
- [9])
+] [9])
 \tf@lof=\write6
 \openout6 = `MasterThesis.lof'.
 
@@ -751,78 +765,97 @@ File: Figure/Introduction/ilc.png Graphic file (type bmp)
  [15]
 File: Figure/Introduction/higgs_cs_feynman.png Graphic file (type bmp)
 <Figure/Introduction/higgs_cs_feynman.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Figure/Introduction/hcs.png Graphic file (type bmp)
 <Figure/Introduction/hcs.png>
- [16]
+[16]
 File: Figure/Introduction/higgs_decay.png Graphic file (type bmp)
 <Figure/Introduction/higgs_decay.png>
 
-Overfull \hbox (4.70306pt too wide) in paragraph at lines 92--94
+Overfull \hbox (4.70306pt too wide) in paragraph at lines 105--107
  [] 
  []
 
 [17]
 File: Figure/Introduction/bsmdecay.png Graphic file (type bmp)
 <Figure/Introduction/bsmdecay.png>
+ [18]
 File: Figure/Introduction/lhcvsilc.png Graphic file (type bmp)
 <Figure/Introduction/lhcvsilc.png>
- [18]
 File: Figure/Introduction/selfcoupling.png Graphic file (type bmp)
 <Figure/Introduction/selfcoupling.png>
+ [19]
 File: Figure/Introduction/feynman.png Graphic file (type bmp)
 <Figure/Introduction/feynman.png>
- [19] [20]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
 File: Figure/Introduction/detector.png Graphic file (type bmp)
 <Figure/Introduction/detector.png>
 
-Overfull \hbox (36.81339pt too wide) in paragraph at lines 182--184
+Overfull \hbox (36.81339pt too wide) in paragraph at lines 198--200
  [] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [21]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Figure/Introduction/ild.png Graphic file (type bmp)
 <Figure/Introduction/ild.png>
- [22]
+[22] [23]
 File: Figure/Introduction/vertexdetector.png Graphic file (type bmp)
 <Figure/Introduction/vertexdetector.png>
- [23]
+ [24]
 File: Figure/Introduction/ilcsoft.png Graphic file (type bmp)
 <Figure/Introduction/ilcsoft.png>
- [24] [25]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25] [26]
 File: Figure/Introduction/bcjets.pdf Graphic file (type pdf)
 <Figure/Introduction/bcjets.pdf>
- [26] [27]) [28]
+ [27] [28]) [29]
 \openout2 = `Chapter/2.Siwecal.aux'.
 
  (./Chapter/2.Siwecal.tex
 第2章
-[29
+[30
 
 
 
 
-] [30]
+] [31]
 File: Figure/Siwecal/dedx.png Graphic file (type bmp)
 <Figure/Siwecal/dedx.png>
- [31
+ [32
 
 ]
 File: Figure/Siwecal/photon.png Graphic file (type bmp)
 <Figure/Siwecal/photon.png>
- [32]
+ [33]
 File: Figure/Siwecal/photon_crosssection.png Graphic file (type bmp)
 <Figure/Siwecal/photon_crosssection.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33] [34]
+[34] [35]
 File: Figure/Siwecal/ECAL.png Graphic file (type bmp)
 <Figure/Siwecal/ECAL.png>
 File: Figure/Siwecal/SiW-ECAL.png Graphic file (type bmp)
 <Figure/Siwecal/SiW-ECAL.png>
 
-Overfull \hbox (17.95602pt too wide) in paragraph at lines 129--131
+Overfull \hbox (17.95602pt too wide) in paragraph at lines 136--138
  [] 
  []
 
@@ -830,42 +863,43 @@ Overfull \hbox (17.95602pt too wide) in paragraph at lines 129--131
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (16.87901pt too wide) in paragraph at lines 144--154
+Overfull \hbox (16.87901pt too wide) in paragraph at lines 151--161
  [][] 
  []
 
 File: Figure/Siwecal/si_sensor.png Graphic file (type bmp)
 <Figure/Siwecal/si_sensor.png>
-[35] [36]
+[36] [37]
 File: Figure/Siwecal/skiroc2A.png Graphic file (type bmp)
 <Figure/Siwecal/skiroc2A.png>
 
-Overfull \hbox (57.7963pt too wide) in paragraph at lines 200--203
+Overfull \hbox (57.7963pt too wide) in paragraph at lines 207--210
  [] 
  []
 
-[37]
+[38]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[39]
 File: Figure/Siwecal/shortslab.png Graphic file (type bmp)
 <Figure/Siwecal/shortslab.png>
 File: Figure/Siwecal/fevcob.png Graphic file (type bmp)
 <Figure/Siwecal/fevcob.png>
 File: Figure/Siwecal/core.png Graphic file (type bmp)
 <Figure/Siwecal/core.png>
-) [38]
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39] [40]
+[40] [41]
 \openout2 = `Chapter/3.Beamtest.aux'.
 
  (./Chapter/3.Beamtest.tex
 第3章
 File: Figure/Beamtest/cern.png Graphic file (type bmp)
 <Figure/Beamtest/cern.png>
-[41
+[42
 
 
 
@@ -873,13 +907,13 @@ File: Figure/Beamtest/cern.png Graphic file (type bmp)
 ]
 File: Figure/Beamtest/setup1.png Graphic file (type bmp)
 <Figure/Beamtest/setup1.png>
- [42]
+ [43]
 File: Figure/Beamtest/setup2.png Graphic file (type bmp)
 <Figure/Beamtest/setup2.png>
- [43]
+ [44]
 File: Figure/Beamtest/monitor.png Graphic file (type bmp)
 <Figure/Beamtest/monitor.png>
- [44]
+ [45]
 File: Figure/Beamtest/hitmap_e20.png Graphic file (type bmp)
 <Figure/Beamtest/hitmap_e20.png>
 
@@ -923,22 +957,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--116
 [][] []
  []
 
-[45]
+[46]
 File: Figure/Beamtest/pedestal.png Graphic file (type bmp)
 <Figure/Beamtest/pedestal.png>
- [46]
+ [47]
 File: Figure/Beamtest/ped_pos.png Graphic file (type bmp)
 <Figure/Beamtest/ped_pos.png>
 File: Figure/Beamtest/dp.png Graphic file (type bmp)
 <Figure/Beamtest/dp.png>
- [47]) [48]
+ [48]) [49]
 \openout2 = `Chapter/4.Deeplearning.aux'.
 
  (./Chapter/4.Deeplearning.tex
 第4章
 File: Figure/Deeplearning/perceptron.png Graphic file (type bmp)
 <Figure/Deeplearning/perceptron.png>
-[49
+[50
 
 
 
@@ -946,7 +980,7 @@ File: Figure/Deeplearning/perceptron.png Graphic file (type bmp)
 ]
 File: Figure/Deeplearning/mlp.png Graphic file (type bmp)
 <Figure/Deeplearning/mlp.png>
- [50]
+ [51]
 File: Figure/Deeplearning/step.png Graphic file (type bmp)
 <Figure/Deeplearning/step.png>
 File: Figure/Deeplearning/sigmoid.png Graphic file (type bmp)
@@ -958,28 +992,28 @@ File: Figure/Deeplearning/ReLU.png Graphic file (type bmp)
 File: Figure/Deeplearning/LeakyReLU.png Graphic file (type bmp)
 <Figure/Deeplearning/LeakyReLU.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--119
+Underfull \hbox (badness 10000) in paragraph at lines 96--121
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--119
+Underfull \hbox (badness 10000) in paragraph at lines 96--121
 [] []
  []
 
-[51] [52] [53] [54] [55]
+[52] [53] [54] [55] [56] [57]
 File: Figure/Deeplearning/dnn.png Graphic file (type bmp)
 <Figure/Deeplearning/dnn.png>
- [56] [57]
+ [58]
 File: Figure/Deeplearning/messagepassing.png Graphic file (type bmp)
 <Figure/Deeplearning/messagepassing.png>
- [58] [59]
+ [59] [60]
 File: Figure/Deeplearning/sage.png Graphic file (type bmp)
 <Figure/Deeplearning/sage.png>
- [60]
+ [61]
 File: Figure/Deeplearning/gat.png Graphic file (type bmp)
 <Figure/Deeplearning/gat.png>
-) [61]
+) [62]
 \openout2 = `Chapter/5.Flavortagging.aux'.
 
 
@@ -991,62 +1025,79 @@ LABELS NOT IMPORTED.
  on input line 6.
 
 第5章
-[62
+[63
 
 
 
 
 ]
-Overfull \hbox (1.74275pt too wide) in paragraph at lines 34--79
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 39.
+
+Overfull \hbox (5.18272pt too wide) in paragraph at lines 34--81
  [][] 
  []
 
-[63] [64]
+[64] [65]
 File: Figure/Flavortagging/dnn.png Graphic file (type bmp)
 <Figure/Flavortagging/dnn.png>
- [65] [66]
+ [66] [67]
+File: Figure/Flavortagging/bayesian1.png Graphic file (type bmp)
+<Figure/Flavortagging/bayesian1.png>
+File: Figure/Flavortagging/bayesian2.png Graphic file (type bmp)
+<Figure/Flavortagging/bayesian2.png>
+File: Figure/Flavortagging/bays3.png Graphic file (type bmp)
+<Figure/Flavortagging/bays3.png>
+ [68]
 File: Figure/Flavortagging/dnnout.png Graphic file (type bmp)
 <Figure/Flavortagging/dnnout.png>
 File: Figure/Flavortagging/dnncm.png Graphic file (type bmp)
 <Figure/Flavortagging/dnncm.png>
- [67]
+ [69]
 File: Figure/Flavortagging/dnneff_b.png Graphic file (type bmp)
 <Figure/Flavortagging/dnneff_b.png>
- [68]
+ [70]
 File: Figure/Flavortagging/dnneff_c.png Graphic file (type bmp)
 <Figure/Flavortagging/dnneff_c.png>
- [69]
+ [71]
 File: Figure/Flavortagging/graphexample.png Graphic file (type bmp)
 <Figure/Flavortagging/graphexample.png>
- [70] [71]
+ [72] [73]
 File: Figure/Flavortagging/imbalance.png Graphic file (type bmp)
 <Figure/Flavortagging/imbalance.png>
- [72]
+ [74]
 File: Figure/Flavortagging/gnn.png Graphic file (type bmp)
 <Figure/Flavortagging/gnn.png>
- [73] [74]
+ [75] [76] [77]
+File: Figure/Flavortagging/bayesian1.png Graphic file (type bmp)
+<Figure/Flavortagging/bayesian1.png>
+File: Figure/Flavortagging/bayesian2.png Graphic file (type bmp)
+<Figure/Flavortagging/bayesian2.png>
+File: Figure/Flavortagging/bayesian3.png Graphic file (type bmp)
+<Figure/Flavortagging/bayesian3.png>
+ [78]
 File: Figure/Flavortagging/gnnoutput.png Graphic file (type bmp)
 <Figure/Flavortagging/gnnoutput.png>
- [75]
+
+[79]
 File: Figure/Flavortagging/gnncm.png Graphic file (type bmp)
 <Figure/Flavortagging/gnncm.png>
 File: Figure/Flavortagging/gnneff_b.png Graphic file (type bmp)
 <Figure/Flavortagging/gnneff_b.png>
- [76]
+ [80]
 File: Figure/Flavortagging/gnneff_c.png Graphic file (type bmp)
 <Figure/Flavortagging/gnneff_c.png>
- [77]
-Excluding 'comment' comment.) [78]
+ [81]) [82]
 \openout2 = `Chapter/6.Conclusion.aux'.
 
  (./Chapter/6.Conclusion.tex
 第6章
-) [79
+) [83
 
 
 
 
-] [80] [81]
+] [84] [85]
 \openout2 = `Chapter/Appendix/7.AppendixA.aux'.
 
  (./Chapter/Appendix/7.AppendixA.tex
@@ -1055,15 +1106,15 @@ File: Figure/Appendix/xy.png Graphic file (type bmp)
 <Figure/Appendix/xy.png>
 File: Figure/Appendix/sz.png Graphic file (type bmp)
 <Figure/Appendix/sz.png>
-) [82
+) [86
 
 
 
 
-] [83]
+] [87]
 \openout2 = `Chapter/8.Acknowledgement.aux'.
 
- (./Chapter/8.Acknowledgement.tex) [84
+ (./Chapter/8.Acknowledgement.tex) [88
 
 
 
@@ -1071,19 +1122,19 @@ File: Figure/Appendix/sz.png Graphic file (type bmp)
 
 ] (./MasterThesis.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 9.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 9.
+(Font)              scaled to size 9.60999pt on input line 18.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 9.
-)
-[85
+(Font)              scaled to size 9.60999pt on input line 18.
+ [89
 
 
 
-] (./MasterThesis.aux (./Chapter/0.Abstract.aux)
+])
+[90] (./MasterThesis.aux (./Chapter/0.Abstract.aux)
 (./Chapter/1.Introduction.aux) (./Chapter/2.Siwecal.aux)
 (./Chapter/3.Beamtest.aux) (./Chapter/4.Deeplearning.aux)
 (./Chapter/5.Flavortagging.aux) (./Chapter/6.Conclusion.aux)
@@ -1091,22 +1142,16 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `MasterThesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MasterThesis.out':
-(rerunfilecheck)             Before: 9D6012C8AE0A0CFA76BACC392E803C3E;7132
-(rerunfilecheck)             After:  98E6545AC1230677CC002F8612D56071;7170.
+Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
+(rerunfilecheck)             Checksum: CDBAFE42A6601259BCF7FFB0CF04E86B;7171.
  ) 
 Here is how much of TeX's memory you used:
- 17242 strings out of 478724
- 334205 string characters out of 5858392
- 597914 words of memory out of 5000000
- 35303 multiletter control sequences out of 15000+600000
- 521227 words of font info for 129 fonts, out of 8000000 for 9000
+ 17390 strings out of 478724
+ 336453 string characters out of 5858392
+ 600686 words of memory out of 5000000
+ 35433 multiletter control sequences out of 15000+600000
+ 524640 words of font info for 141 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,16n,79p,1446b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,1458b,1100s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (85 pages, 401864 bytes).
+Output written on MasterThesis.dvi (90 pages, 425520 bytes).
