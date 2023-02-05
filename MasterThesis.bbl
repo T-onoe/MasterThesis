@@ -24,6 +24,11 @@ K.~Fujii \emph{et~al.},
 \newblock Physics case for the international linear collider,
 \newblock (2015).
 
+\bibitem{pfa}
+M.~A. Thomson,
+\newblock Particle flow calorimetry and the pandora pfa algorithm.,
+\newblock Nucl. Instrum. Meth. {\bf A611} (2009).
+
 \bibitem{lcfiplus}
 T.~Suehara and T.~Tanabe,
 \newblock Lcfiplus: A framework for jet analysis in linear collider studies,
@@ -43,6 +48,10 @@ R.~Brun and F.~Rademakers,
 J.~Therhaag,
 \newblock {TMVA Toolkit for multivariate data analysis in ROOT},
 \newblock PoS ICHEP2010  (2010).
+
+\bibitem{blue}
+ブ. マーティン and グレアム・ショー,
+\newblock {\em マーティン/ショー 素粒子物理学 原著第4版} (講談社, 2020).
 
 \bibitem{ecalsoft}
 A.~Irles,
@@ -101,5 +110,15 @@ T.~Akiba, S.~Sano, T.~Yanase, T.~Ohta, and M.~Koyama,
 \newblock Optuna: A next-generation hyperparameter optimization framework,
 \newblock KDD 2019: Proceedings of the 25th ACM SIGKDD International Conference
   on Knowledge Discovery Data Mining  (2019).
+
+\bibitem{ldc}
+A.~Vogel,
+\newblock The coordinate system for ldc detector studies,
+\newblock LC-DET-2005-009  (2005).
+
+\bibitem{lcio}
+T.~Kramer,
+\newblock Track parameters in lcio,
+\newblock LC-DET-2006-004  (2006).
 
 \end{thebibliography}

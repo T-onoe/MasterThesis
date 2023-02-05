@@ -12,7 +12,7 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces シミュレーションデータのパラメータ\relax }}{63}{table.caption.68}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces LCFIPlusにおけるフレーバー識別の入力変数\relax }}{65}{table.caption.69}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces ディープニューラルネットワークにおけるハイパーパラメータ\relax }}{67}{table.caption.71}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces 最適化を行ったハイパーパラメータとその値の範囲。\relax }}{68}{table.caption.72}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces 最適化を行ったハイパーパラメータの一部とその値の範囲。\relax }}{68}{table.caption.72}%
 \contentsline {table}{\numberline {5.5}{\ignorespaces 識別効率 (Tagging Efficiency) に対するジェット誤認率 (Mis-id fraction)\relax }}{72}{table.caption.80}%
 \contentsline {table}{\numberline {5.6}{\ignorespaces 各ノード (飛跡) が持つ特徴量。詳細についてはAppendixを参照。\relax }}{73}{table.caption.82}%
 \contentsline {table}{\numberline {5.7}{\ignorespaces ノード分類の答えラベル\relax }}{74}{table.caption.83}%

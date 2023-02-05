@@ -11,7 +11,7 @@
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.7]
  	{Figure/Beamtest/cern.png}
- 		\caption{CERNの全体図}
+ 		\caption{CERN加速器の全体図}
 	\end{center}
 \end{figure}
 \begin{table}[H]
@@ -76,8 +76,8 @@ Max $\delta p / p$  & $2\%$\\
  \caption{SiW-ECALのレイヤー構成 (0層目がビーム上流側) }
 \end{table}
 \subsection{信号読み出し}
-ECALとHCALは独立にDAQを行うが、本実験ではEUDAQという読み出しフレームワークによってHCALと同期した読み出しを行った。EUDAQでは、ECALとHCALの間でClock and Control Card (CCC) を同期させており、CCCではクロック、スタート、ストップ信号をPCへ送っているため、PC上で時間情報である Bunch Crossing ID (BCID) が同じイベントを収集することができる。\\
-また、ECALでは専用のDAQソフトウェア\cite{ecalsoft}が稼働しており、DAQのみでなくチャンネル単位での閾値の設定やイベントのモニター (図\ref{monitor}) が可能となっている。データはraw形式で保存され、解析用のソフトウェアを通してツリー形式にデータを保存したrootファイルへ変換し解析に利用することができる。
+SiWECALとAHCALは独立にDAQを行うが、本実験ではEUDAQという読み出しフレームワークによってAHCALと同期した読み出しを行った。EUDAQでは、SiWECALとAHCALの間でClock and Control Card (CCC) を同期させており、CCCではクロック、スタート、ストップ信号をPCへ送っているため、PC上で時間情報である Bunch Crossing ID (BCID) が同じイベントを収集することができる。\\
+また、SiWECALでは専用のDAQソフトウェア\cite{ecalsoft}が稼働しており、DAQのみでなくチャンネル単位での閾値の設定やイベントのモニター (図\ref{monitor}) が可能となっている。データはraw形式で保存され、解析用のソフトウェアを通してツリー形式にデータを保存したrootファイルへ変換し解析に利用することができる。
 \begin{figure}[H]
 \begin{center}
  \includegraphics[keepaspectratio, scale=0.2]

@@ -2,8 +2,8 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces 素粒子の標準模型（数値は質量[$\mathrm {GeV/c^2}$]）\relax }}{13}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces ヒッグスポテンシャル\cite {higgspotential}\relax }}{14}{figure.caption.5}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces ILCの概略図\relax }}{15}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Zh随伴生成、WW融合反応、ZZ 融合反応におけるファインマンダイアグラム\cite {tdr2}。\relax }}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=\SI {125}{GeV}$であるとして、Zh随伴生成、WW融合反応、ZZ融合反応をそれぞれ赤、青、緑線で示している\cite {tdr2}。\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces $Zh$随伴生成、$WW$融合反応、$ZZ$ 融合反応におけるファインマンダイアグラム\cite {tdr2}。\relax }}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ILCの重心系エネルギーに対するヒッグス生成断面積。ヒッグス粒子の質量が$m_h=\SI {125}{GeV}$であるとして、$Zh$随伴生成、$WW$融合反応、$ZZ$融合反応をそれぞれ赤、青、緑線で示している\cite {tdr2}。\relax }}{17}{figure.caption.8}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces 標準模型におけるヒッグス粒子の質量と崩壊分岐比の関係\relax }}{18}{figure.caption.9}%
 \contentsline {figure}{\numberline {1.7}{\ignorespaces 2つの新物理のモデルにおける、標準模型のヒッグス粒子結合定数とのずれ。 (左) 超対称性 (SUSY) モデル (右) 複合ヒッグスモデル。誤差棒は1\, $\sigma $の範囲を表している。\relax }}{19}{figure.caption.10}%
 \contentsline {figure}{\numberline {1.8}{\ignorespaces ILCとHL-LHCにおけるヒッグス粒子の各粒子に対する結合定数の測定精度予測。誤差棒は1$\sigma $の範囲を表している。（紫：LHC ($300 \mathrm {fb^{-1}}$), 青：ILC1 ($\SI {250}{GeV}$) , 臙脂：ILC ($\SI {500}{GeV}$) , 薄橙：ILCTeV ($\SI {1}{TeV}$)）\cite {decaybsm}\relax }}{19}{figure.caption.11}%
@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 水素(液体)、ヘリウム(気体)、炭素、アルミニウム、鉄、スズ、および鉛における平均エネルギー損失と、入射粒子（ミューオン、パイ中間子、陽子）の速度の関係。\relax }}{32}{figure.caption.30}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 光子と物質の相互作用\relax }}{33}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 光子と鉛の相互作用における断面積と光子のエネルギーの関係。${\sigma }_{p.e.}$は光電効果を、${\sigma }_{Compton}$はコンプトン散乱を、${\kappa }_{e}, {\kappa }_{nuc}$は電子陽電子対生成を指す。\relax }}{35}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図\relax }}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図\cite {tdr2}\relax }}{37}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\relax }}{37}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンパッドセンサー\relax }}{37}{figure.caption.35}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{39}{figure.caption.36}%
@@ -26,7 +26,7 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces FEV13, COB}}{41}{figure.caption.39}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces 多層読み出しのためのCOREモジュール\relax }}{41}{figure.caption.40}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces CERNの全体図\relax }}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces CERN加速器の全体図\relax }}{43}{figure.caption.41}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces セットアップの全体図。黄枠：AHCAL、青枠：SiW-ECAL、赤：ビーム位置\relax }}{44}{figure.caption.43}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces SiW-ECALのプロトタイプモジュールと電源供給、読み出しシステム\relax }}{44}{figure.caption.44}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces SiW-ECAL読み出しソフトウェアにおけるイベントモニター (左) ヒットマップ (右) 各層あたりのヒット数\relax }}{46}{figure.caption.46}%
@@ -45,12 +45,12 @@
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces フレーバー識別のためのディープニューラルネットワークの概略図\relax }}{67}{figure.caption.70}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 各試行における評価関数の値。値が最小になるようなアルゴリズムを実行している。\relax }}{68}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $w_{\mathrm {node}} (図中の\alpha )$, $w_{\mathrm {edge}} (図中の\beta )$に対する評価関数の2次元ヒストグラム。\relax }}{69}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 中間層の層数と学習率に対する評価関数の2次元ヒストグラム。\relax }}{69}{figure.caption.74}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces 各パラメータの重要度\relax }}{69}{figure.caption.75}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces (左)学習の経過における損失関数。(右)学習の経過における学習精度\relax }}{70}{figure.caption.76}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces ディープニューラルネットワークの学習における混合行列。縦軸が実際の答えを、横軸が学習結果を表している。\relax }}{70}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率\relax }}{71}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率\relax }}{71}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)による$b$フレーバージェットの識別効率の比較。緑：$b$ジェットに対する$c$ジェットの識別効率、青：$b$ジェットに対する$uds$ジェットの識別効率\relax }}{71}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces LCFIPlus(左)とディープニューラルネットワーク(右)による$c$フレーバージェットの識別効率の比較。赤：$c$ジェットに対する$b$ジェットの識別効率、黒：$c$ジェットに対する$uds$ジェットの識別効率\relax }}{71}{figure.caption.79}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces 今回の学習に用いたグラフデータの一例。ノードは飛跡を、グラフ全体が1つのジェットに対応する。\relax }}{73}{figure.caption.81}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces ノードラベル毎のデータ数\relax }}{74}{figure.caption.86}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces フレーバー識別のためのグラフデータを用いたネットワークの概略図\relax }}{76}{figure.caption.87}%
@@ -59,9 +59,9 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces 各パラメータの重要度。$\beta _2$はRAdamにおける学習の進行度のパラメータ、ドロップアウトは学習におけるアテンション係数の隣接ノードへの参照率を表す。\relax }}{79}{figure.caption.92}%
 \contentsline {figure}{\numberline {5.15}{\ignorespaces (上)学習の経過における損失関数。(左下) 学習の経過におけるノードの学習精度、(中央下) リンクの学習精度、(右下) グラフの学習精度。\relax }}{80}{figure.caption.93}%
 \contentsline {figure}{\numberline {5.16}{\ignorespaces (左) ノード分類の混合行列、(中央) リンク予測の混合行列、(右) グラフ分類の混合行列。\relax }}{80}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるbフレーバージェットの識別効率の比較。緑：bジェットに対するcジェットの識別効率、青：bジェットに対するudsジェットの識別効率。\relax }}{81}{figure.caption.95}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)によるcフレーバージェットの識別効率の比較。赤：cジェットに対するbジェットの識別効率、黒：cジェットに対するudsジェットの識別効率。\relax }}{82}{figure.caption.96}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)による$b$フレーバージェットの識別効率の比較。緑：$b$ジェットに対する$c$ジェットの識別効率、青：$b$ジェットに対する$uds$ジェットの識別効率。\relax }}{81}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces LCFIPlus(左)とグラフニューラルネットワーク(右)による$c$フレーバージェットの識別効率の比較。赤：$c$ジェットに対する$b$ジェットの識別効率、黒：$c$ジェットに対する$uds$ジェットの識別効率。\relax }}{82}{figure.caption.96}%
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces xy平面\relax }}{86}{figure.caption.100}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces sz平面\relax }}{87}{figure.caption.101}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 飛跡の螺旋軌道をxy平面へ射影した図。軌道は中心点$\mathbf {P}^c$、半径Rをもつ円弧で表される。また、全ての飛跡パラメータは基準点$\mathbf {P}^r$を中心に与えられる。\relax }}{88}{figure.caption.101}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces sz平面\relax }}{89}{figure.caption.103}%

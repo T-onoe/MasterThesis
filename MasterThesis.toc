@@ -87,6 +87,10 @@
 \contentsline {subsection}{\numberline {5.3.4}ハイパーパラメータの最適化}{77}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}学習評価}{79}{subsection.5.3.5}%
 \contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{83}{chapter.6}%
-\contentsline {chapter}{\numberline {付録A}付録A}{86}{appendix.A}%
+\contentsline {chapter}{\numberline {付録A}AppendixA}{86}{appendix.A}%
 \contentsline {section}{\numberline {A.1}LCIO parameter}{86}{section.A.1}%
-\contentsline {chapter}{参考文献}{89}{appendix*.103}%
+\contentsline {subsection}{\numberline {A.1.1}LDC座標系}{86}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}飛跡パラメータ}{86}{subsection.A.1.2}%
+\contentsline {subsubsection}{xy平面}{87}{section*.100}%
+\contentsline {subsubsection}{sz平面}{88}{section*.102}%
+\contentsline {chapter}{参考文献}{92}{appendix*.105}%
