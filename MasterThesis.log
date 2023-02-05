@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  6 FEB 2023 00:10
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  6 FEB 2023 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,24 +485,6 @@ Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2020-05-10 v5.06 eXternal References (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count311
-\output=\toks27
-\linenoprevgraf=\count312
-\linenumbersep=\dimen268
-\linenumberwidth=\dimen269
-\c@linenumber=\count313
-\c@pagewiselinenumber=\count314
-\c@LN@truepage=\count315
-\c@internallinenumber=\count316
-\c@internallinenumbers=\count317
-\quotelinenumbersep=\dimen270
-\bframerule=\dimen271
-\bframesep=\dimen272
-\bframebox=\box84
-LaTeX Info: Redefining \\ on input line 3056.
-)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 160.
 
@@ -584,7 +566,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count318
+\c@section@level=\count311
 )
 LaTeX Info: Redefining \ref on input line 160.
 LaTeX Info: Redefining \pageref on input line 160.
@@ -620,14 +602,6 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 166.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 166.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 166.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 166.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 166.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 166.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 166.
@@ -646,6 +620,8 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 14.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 14.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
@@ -668,6 +644,8 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 14.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 14.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 172.
@@ -914,43 +892,43 @@ File: Figure/Beamtest/monitor.png Graphic file (type bmp)
 File: Figure/Beamtest/hitmap_e20.png Graphic file (type bmp)
 <Figure/Beamtest/hitmap_e20.png>
 
-Overfull \hbox (0.68813pt too wide) in paragraph at lines 97--98
+Overfull \hbox (0.68813pt too wide) in paragraph at lines 99--100
  [][] 
  []
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 98.
+(Font)              scaled to size 8.64899pt on input line 100.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 98.
+(Font)              scaled to size 8.64899pt on input line 100.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 98.
+(Font)              scaled to size 5.76599pt on input line 100.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 98.
+(Font)              scaled to size 8.64899pt on input line 100.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 98.
+(Font)              scaled to size 5.76599pt on input line 100.
 File: Figure/Beamtest/hitmap_e150.png Graphic file (type bmp)
 <Figure/Beamtest/hitmap_e150.png>
 
-Overfull \hbox (0.68813pt too wide) in paragraph at lines 102--103
+Overfull \hbox (0.68813pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
 File: Figure/Beamtest/hitmap_mu150.png Graphic file (type bmp)
 <Figure/Beamtest/hitmap_mu150.png>
 
-Overfull \hbox (0.68813pt too wide) in paragraph at lines 107--108
+Overfull \hbox (0.68813pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
 File: Figure/Beamtest/hitmap_pi150.png Graphic file (type bmp)
 <Figure/Beamtest/hitmap_pi150.png>
 
-Overfull \hbox (0.68813pt too wide) in paragraph at lines 113--114
+Overfull \hbox (0.68813pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--116
+Underfull \hbox (badness 10000) in paragraph at lines 97--118
 [][] []
  []
 
@@ -1027,12 +1005,6 @@ LABELS NOT IMPORTED.
  on input line 6.
 
 第5章
-[66
-
-
-
-
-]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 39.
 
@@ -1040,7 +1012,12 @@ Overfull \hbox (7.98099pt too wide) in paragraph at lines 34--81
  [][] 
  []
 
-[67] [68]
+[66
+
+
+
+
+] [67] [68]
 File: Figure/Flavortagging/dnn.png Graphic file (type bmp)
 <Figure/Flavortagging/dnn.png>
  [69] [70]
@@ -1067,21 +1044,20 @@ File: Figure/Flavortagging/graphexample.png Graphic file (type bmp)
  [75] [76]
 File: Figure/Flavortagging/imbalance.png Graphic file (type bmp)
 <Figure/Flavortagging/imbalance.png>
- [77]
 File: Figure/Flavortagging/gnn.png Graphic file (type bmp)
 <Figure/Flavortagging/gnn.png>
- [78] [79] [80]
+ [77] [78] [79] [80]
 File: Figure/Flavortagging/bayesian1.png Graphic file (type bmp)
 <Figure/Flavortagging/bayesian1.png>
 File: Figure/Flavortagging/bayesian2.png Graphic file (type bmp)
 <Figure/Flavortagging/bayesian2.png>
 File: Figure/Flavortagging/bayesian3.png Graphic file (type bmp)
 <Figure/Flavortagging/bayesian3.png>
- [81]
+
+[81]
 File: Figure/Flavortagging/gnnoutput.png Graphic file (type bmp)
 <Figure/Flavortagging/gnnoutput.png>
-
-[82]
+ [82]
 File: Figure/Flavortagging/gnncm.png Graphic file (type bmp)
 <Figure/Flavortagging/gnncm.png>
 File: Figure/Flavortagging/gnneff_b.png Graphic file (type bmp)
@@ -1146,16 +1122,22 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 33475BAAD97410AB9E50D13CA209048A;7382.
+
+Package rerunfilecheck Warning: File `MasterThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MasterThesis.out':
+(rerunfilecheck)             Before: 33475BAAD97410AB9E50D13CA209048A;7382
+(rerunfilecheck)             After:  133A0E0F3C23D00D0DA3C9AC899C7DED;7441.
  ) 
 Here is how much of TeX's memory you used:
- 17420 strings out of 478724
- 337097 string characters out of 5858392
- 599383 words of memory out of 5000000
- 35459 multiletter control sequences out of 15000+600000
- 524640 words of font info for 141 fonts, out of 8000000 for 9000
+ 17198 strings out of 478724
+ 333523 string characters out of 5858392
+ 595408 words of memory out of 5000000
+ 35242 multiletter control sequences out of 15000+600000
+ 523962 words of font info for 138 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,16n,79p,2041b,1100s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,16n,79p,2041b,1092s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (96 pages, 464152 bytes).
+Output written on MasterThesis.dvi (96 pages, 398896 bytes).
