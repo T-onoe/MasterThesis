@@ -57,7 +57,7 @@ y_n = h(w_1^1 x_1^1 + w_2^1 x_2^1 + w_3^1 x_3^1 + \cdots + w_n^1 x_n^1 + b^1)
 \end{align}
 　以下ではニューラルネットワークの学習における、学習の仕組みや重要な技術について取り上げる。
 \subsubsection{活性化関数}
-活性化関数はニューラルネットワークにおける入力の重み線形和から、出力を決定するための関数である。活性化関数には、非線形演算によって多層構造での表現力を高めるために非線形関数が用いられ、以下に主なものについて示す。中でもReLU関数は、勾配の最大値が1であることから勾配消失を起こしにくく、計算の安定性の理由から多くのモデルにおいて用いられている。（sigmoid関数の場合$x=0$で最大となり、それ以外で急速に小さくなってしまう）
+活性化関数はニューラルネットワークにおける入力の重み線形和から、出力を決定するための関数である。活性化関数には、非線形演算によって多層構造での表現力を高めるために非線形関数が用いられ、以下に主なものについて示しそれぞれの関数のグラフを図\ref{acti}に示す。中でもReLU関数は、勾配の最大値が1であることから勾配消失を起こしにくく、計算の安定性の理由から多くのモデルにおいて用いられている。（sigmoid関数の場合$x=0$で最大となり、それ以外で急速に小さくなってしまう）
 \begin{itemize}
 	\item ステップ（階段）関数
 		\begin{align}
@@ -119,7 +119,7 @@ y_n = h(w_1^1 x_1^1 + w_2^1 x_2^1 + w_3^1 x_3^1 + \cdots + w_n^1 x_n^1 + b^1)
     \subcaption{LeakyReLU関数}
   \end{minipage}
   \caption{活性化関数のグラフ。Forwardは順方向、backwardは逆方向 (後に誤差逆伝播法で説明) の際の演算を表す。}
-  \label{hitmap}
+  \label{acti}
 \end{figure}
 \subsubsection{出力層の設計}
 ニューラルネットワークで扱える問題は、主に回帰問題と分類問題に分けられる。それぞれの問題によって出力層の設計が異なり、回帰問題においては恒等関数が、分類問題においてはソフトマックス関数が用いられる。恒等関数では入力された値をそのまま出力する。ソフトマックス関数は以下の式\ref{softmax}のように、0から1までの値を出力する関数であり、それぞれのカテゴリに分類される確率を表す。ここで$y_k$はニューラルネットワークの出力、$x_k$は出力層へ入ってくる信号を表す。また、出力層のノード数は問題に合わせて適宜調整する必要があり、分類問題であればカテゴリ数だけノードを設計する必要がある。
@@ -276,7 +276,7 @@ $\bm{g} \star \bm{x}$は畳み込み演算を、$\bm{U}^T \bm{g}$はスペクト
 &\bm{h}_v^k \leftarrow \sigma (\bm{W}^k \cdot \mathrm{CONCAT}(\bm{h}_v^{k-1}, \bm{h}_{\mathcal{N}(v)}^k))\\
 &  (\forall k \in \{1, ..., K\}, \forall v \in \mathcal{V}) \nonumber
 \end{align}
-ここで、$K$は集約における隣接の深さを、$\bm{W}^k$は重みパラメータ行列を、$\sigma$は非線形関数を表しており、1式目$\mathrm{AGGREGATE}$で集約を、2式目$\mathrm{CONCAT}$で更新を行なっている。GraphSAGEはあらかじめサンプリングによって、隣接するノード数が異なる場合やグラフ構造が変わった場合にも畳み込み演算を行うことができ、さらに大規模なグラフ演算に対しては計算コストを改善することができる。
+ここで、$K$は集約における隣接の深さを、$\bm{W}^k$は重みパラメータ行列を、$\sigma$は非線形関数を表しており、1式目$\mathrm{AGGREGATE}$で集約を、2式目$\mathrm{CONCAT}$で更新を行なっている。これらの学習の処理を図\ref{sage}に示す。GraphSAGEはあらかじめサンプリングによって、隣接するノード数が異なる場合やグラフ構造が変わった場合にも畳み込み演算を行うことができ、さらに大規模なグラフ演算に対しては計算コストを改善することができる。
 \begin{figure}[H]
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.3]
@@ -297,11 +297,12 @@ $\bm{g} \star \bm{x}$は畳み込み演算を、$\bm{U}^T \bm{g}$はスペクト
  &= \frac{e^{\mathrm{LeakyReLU}(\bm{a}^T [ \bm{W}\bm{h}_i \parallel \bm{W}\bm{h}_j ])}}{\sum_{\mathcal{N}_i} e^{\mathrm{LeakyReLU}(\bm{a}^T [ \bm{W}\bm{h}_i \parallel  \bm{W}\bm{h}_j ])}}
 \label{gatattention}
 \end{align}
-　GATではattention処理に1層のニューラルネットワークを用いており、$\bm{a}$として学習の重みベクトルを用いている。式\ref{gatattention}においては全ノード間で正規化して確率値を出力するためのsoftmax関数の適用と、活性化関数 (Leaky ReLU) の適用を行っている。（$\parallel$はテンソルのconcatenateを表す。）GATは、隣接に任意の重みを割り当てることから次数の異なるノードにも適応可能であり、未知のグラフ構造にも一般化することができる。
+　GATではattention処理に1層のニューラルネットワークを用いており、$\bm{a}$として学習の重みベクトルを用いている。式\ref{gatattention}においては全ノード間で正規化して確率値を出力するためのsoftmax関数の適用と、活性化関数 (Leaky ReLU) の適用を行っている。（$\parallel$はテンソルのconcatenateを表す。）これらの演算処理のイメージを図\ref{gatt}に示す。GATは、隣接に任意の重みを割り当てることから次数の異なるノードにも適応可能であり、未知のグラフ構造にも一般化することができる。
 \begin{figure}[H]
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.25]
  	{Figure/Deeplearning/gat.png}
  		\caption{ (左) 重みベクトル$\bm{a}$を用いたAttention処理。 (右) 1つのノード$\bm{h}_1$に対する隣接ノード$\bm{h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\bm{h'}_1$}
+		\label{gatt}
 	\end{center}
 \end{figure}

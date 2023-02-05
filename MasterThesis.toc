@@ -52,45 +52,45 @@
 \contentsline {subsection}{\numberline {3.2.2}信号読み出し}{46}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}実験結果}{47}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}検出器応答}{47}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}ペデスタル}{48}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {第4章}深層学習}{52}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ニューラルネットワーク}{52}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}パーセプトロン（単層ニューラルネットワーク）}{52}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}多層パーセプトロン（多層ニューラルネットワーク）}{53}{subsection.4.1.2}%
-\contentsline {subsubsection}{活性化関数}{54}{section*.55}%
-\contentsline {subsubsection}{出力層の設計}{55}{section*.57}%
-\contentsline {subsubsection}{損失関数}{55}{section*.58}%
-\contentsline {subsubsection}{誤差逆伝播法}{56}{section*.59}%
-\contentsline {subsubsection}{前処理}{56}{section*.60}%
-\contentsline {subsubsection}{ミニバッチ処理}{57}{section*.61}%
-\contentsline {subsubsection}{最適化アルゴリズム}{57}{section*.62}%
-\contentsline {subsubsection}{過学習}{59}{section*.63}%
-\contentsline {subsection}{\numberline {4.1.3}ディープニューラルネットワーク}{60}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}グラフニューラルネットワーク}{61}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}メッセージパッシング}{61}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Graph Convolution Network (GCN)}{62}{subsection.4.2.2}%
-\contentsline {subsubsection}{Spectral Graph Convolution}{62}{section*.66}%
-\contentsline {subsubsection}{Spatial Graph Convolution}{63}{section*.67}%
-\contentsline {subsection}{\numberline {4.2.3}Graph Attention Network (GAT)}{64}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {第5章}深層学習を用いたジェットフレーバー識別}{66}{chapter.5}%
-\contentsline {section}{\numberline {5.1}イベントサンプルと先行研究}{66}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}LCFIPlusにおけるフレーバー識別}{67}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}ディープニューラルネットワークによる実装}{69}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}実装目的}{69}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}入力変数とネットワークアーキテクチャ}{69}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ハイパーパラメータの最適化}{70}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}学習評価}{72}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}グラフニューラルネットワークによる実装}{75}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}実装目的}{75}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}飛跡によるグラフデータセット}{75}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ネットワークアーキテクチャ}{78}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}ハイパーパラメータの最適化}{80}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}学習評価}{82}{subsection.5.3.5}%
-\contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{86}{chapter.6}%
-\contentsline {chapter}{\numberline {付録A}AppendixA}{89}{appendix.A}%
-\contentsline {section}{\numberline {A.1}飛跡のパラメータ}{89}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}LDC座標系}{89}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}飛跡パラメータ}{89}{subsection.A.1.2}%
-\contentsline {subsubsection}{xy平面}{90}{section*.102}%
-\contentsline {subsubsection}{sz平面}{91}{section*.104}%
-\contentsline {chapter}{参考文献}{95}{appendix*.107}%
+\contentsline {subsection}{\numberline {3.3.2}ペデスタル}{49}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {第4章}深層学習}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ニューラルネットワーク}{53}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}パーセプトロン（単層ニューラルネットワーク）}{53}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}多層パーセプトロン（多層ニューラルネットワーク）}{54}{subsection.4.1.2}%
+\contentsline {subsubsection}{活性化関数}{55}{section*.56}%
+\contentsline {subsubsection}{出力層の設計}{56}{section*.58}%
+\contentsline {subsubsection}{損失関数}{56}{section*.59}%
+\contentsline {subsubsection}{誤差逆伝播法}{57}{section*.60}%
+\contentsline {subsubsection}{前処理}{57}{section*.61}%
+\contentsline {subsubsection}{ミニバッチ処理}{58}{section*.62}%
+\contentsline {subsubsection}{最適化アルゴリズム}{58}{section*.63}%
+\contentsline {subsubsection}{過学習}{60}{section*.64}%
+\contentsline {subsection}{\numberline {4.1.3}ディープニューラルネットワーク}{61}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}グラフニューラルネットワーク}{62}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}メッセージパッシング}{62}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Graph Convolution Network (GCN)}{63}{subsection.4.2.2}%
+\contentsline {subsubsection}{Spectral Graph Convolution}{63}{section*.67}%
+\contentsline {subsubsection}{Spatial Graph Convolution}{64}{section*.68}%
+\contentsline {subsection}{\numberline {4.2.3}Graph Attention Network (GAT)}{65}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {第5章}深層学習を用いたジェットフレーバー識別}{67}{chapter.5}%
+\contentsline {section}{\numberline {5.1}イベントサンプルと先行研究}{67}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}LCFIPlusにおけるフレーバー識別}{68}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}ディープニューラルネットワークによる実装}{70}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}実装目的}{70}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}入力変数とネットワークアーキテクチャ}{70}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}ハイパーパラメータの最適化}{71}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}学習評価}{73}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}グラフニューラルネットワークによる実装}{76}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}実装目的}{76}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}飛跡によるグラフデータセット}{77}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ネットワークアーキテクチャ}{79}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}ハイパーパラメータの最適化}{81}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}学習評価}{83}{subsection.5.3.5}%
+\contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{87}{chapter.6}%
+\contentsline {chapter}{\numberline {付録A}AppendixA}{90}{appendix.A}%
+\contentsline {section}{\numberline {A.1}飛跡のパラメータ}{90}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}LDC座標系}{90}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}飛跡パラメータ}{90}{subsection.A.1.2}%
+\contentsline {subsubsection}{xy平面}{91}{section*.103}%
+\contentsline {subsubsection}{sz平面}{92}{section*.105}%
+\contentsline {chapter}{参考文献}{96}{appendix*.108}%

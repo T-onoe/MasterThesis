@@ -12,45 +12,45 @@ A level-1 auxiliary file: Chapter/Appendix/7.AppendixA.aux
 A level-1 auxiliary file: Chapter/8.Acknowledgement.aux
 The style file: Bibliography/h-physrev3.bst.bst
 Database file #1: Bibliography/Bibliography.bib
-You've used 25 entries,
+You've used 27 entries,
             1978 wiz_defined-function locations,
-            734 strings with 8867 characters,
-and the built_in function-call counts, 4263 in all, are:
-= -- 283
-> -- 230
+            743 strings with 9035 characters,
+and the built_in function-call counts, 4557 in all, are:
+= -- 305
+> -- 242
 < -- 0
-+ -- 77
-- -- 47
-* -- 265
-:= -- 611
-add.period$ -- 25
-call.type$ -- 25
-change.case$ -- 21
++ -- 81
+- -- 49
+* -- 277
+:= -- 655
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 256
-empty$ -- 488
-format.name$ -- 72
-if$ -- 981
+cite$ -- 27
+duplicate$ -- 276
+empty$ -- 523
+format.name$ -- 76
+if$ -- 1048
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 28
-newline$ -- 122
-num.names$ -- 25
-pop$ -- 146
+int.to.str$ -- 27
+missing$ -- 30
+newline$ -- 132
+num.names$ -- 27
+pop$ -- 158
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 161
+skip$ -- 172
 stack$ -- 0
 substring$ -- 24
-swap$ -- 54
+swap$ -- 57
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 28
-width$ -- 27
-write$ -- 216
+while$ -- 30
+width$ -- 29
+write$ -- 234
 is.kanji.str$ -- 0

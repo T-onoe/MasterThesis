@@ -120,7 +120,7 @@ $\pi$中間子やK中間子などのハドロンは物質を構成する原子�
  
 \section{シリコンタングステン電磁カロリメータ SiW-ECAL}
 \subsection{SiW-ECALの全体構造}
-ILDのSiW-ECALは、図\ref{SiW-ECAL}のようにタングステンの吸収層とシリコンパッドセンサーの検出層が、30層サンドウィッチ状に交互に重なったサンプリング型カロリメータである。1つのモジュールが10ほどのサブモジュールに分かれており、サブモジュールにはそれぞれ4枚のシリコン半導体センサーが貼り付けられる。
+ILDのSiW-ECAL (図\ref{ECAL}青色部分)は、図\ref{SiW-ECAL}のようにタングステンの吸収層とシリコンパッドセンサーの検出層が、30層サンドウィッチ状に交互に重なったサンプリング型カロリメータである。1つのモジュールが10ほどのサブモジュールに分かれており、サブモジュールにはそれぞれ4枚のシリコン半導体センサーが貼り付けられる。
 \begin{figure}[h]
  \begin{minipage}[h]{.45\linewidth}
 	\begin{center}
@@ -142,7 +142,7 @@ ILDのSiW-ECALは、図\ref{SiW-ECAL}のようにタングステンの吸収層�
 \end{figure}
 
 \subsection{シリコン半導体検出器}
-SiW-ECALでは検出層にシリコン半導体検出器を用いる。センサーの大きさは1枚あたり$9 \times 9\: \mathrm{{cm}^2}$で、1枚に$5.5 \times 5.5\: {\mathrm{mm}^2}$のピクセルが$16 \times 16$個並んでおり、1つのサブモジュールあたり1024チャンネル読み出しが可能となっている。またシリコンセンサーには、電極としてアルミニウム ($\mathrm{Al}$) 、絶縁層に二酸化ケイ素 ($\mathrm{SiO_2}$)が使用される。 厚さ320$\mathrm{\mu m}$のセンサーでは、1MIPあたり$\SI{86.8}{keV}$のエネルギー損失が起こり、臨界エネルギーに達するまでに生成される電子正孔対はおよそ24,000、電荷にして$\SI{4}{fC}$となる。シリコンセンサーは、常温硬化型導電性接着剤によって回路基板（PCB）と接着されており、PCBを通して信号の読み出しが行われる。以下にセンサーの仕様と1枚のシリコンセンサーパッドを示す。
+SiW-ECALでは検出層にシリコン半導体検出器を用いる。センサーの大きさは図\ref{sensor}のような1枚あたり$9 \times 9\: \mathrm{{cm}^2}$の大きさで、1枚に$5.5 \times 5.5\: {\mathrm{mm}^2}$のピクセルが$16 \times 16$個並んでおり、1つのサブモジュールあたり1024チャンネル読み出しが可能となっている。またシリコンセンサーには、電極としてアルミニウム ($\mathrm{Al}$) 、絶縁層に二酸化ケイ素 ($\mathrm{SiO_2}$)が使用される。 厚さ320$\mathrm{\mu m}$のセンサーでは、1MIPあたり$\SI{86.8}{keV}$のエネルギー損失が起こり、臨界エネルギーに達するまでに生成される電子正孔対はおよそ24,000、電荷にして$\SI{4}{fC}$となる。シリコンセンサーは、常温硬化型導電性接着剤によって回路基板（PCB）と接着されており、PCBを通して信号の読み出しが行われる。以下にセンサーの仕様と1枚のシリコンセンサーパッドを示す。
 \begin{figure}[H]
  \begin{minipage}[h]{.45\linewidth}
  \def\@captype{table}
@@ -164,7 +164,7 @@ SiW-ECALでは検出層にシリコン半導体検出器を用いる。センサ
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.8]
  	{Figure/Siwecal/si_sensor.png}
- 		\caption{シリコンパッドセンサー}
+ 		\caption{シリコンパッドセンサー\cite{sipad}}
  		\label{sensor}
 	\end{center}
 \end{minipage}
@@ -195,7 +195,7 @@ SiW-ECALでは検出層にシリコン半導体検出器を用いる。センサ
 		\end{itemize}
 	\item TDC (Time to Digital Converter) mode : $\SI{1}{ns}$程の時間分解能で時間情報を保存
 	\item 1チャンネルあたり15イベント保持可能なAnalog memory cell\\
-		ビームバンチ構造に対応するため、$\SI{200}{ns}$の間イベントを保持することが可能。1つのMemory cellでは、High gain ADC、Low gain ADCを、時間情報であるBunch crossing ID (BCID) と紐づけて保存。
+		1つのMemory cellでは、High gain ADC、Low gain ADCを、時間情報であるBunch crossing ID (BCID) と紐づけて保存。
 	\item 数珠つなぎ型読み出し : 順番に読み出すことで読み出していないチップの電源を必要とせず、消費電力を減らす
 	\item 0.5 MIPでの自動トリガー
 	\item 全64チャンネルの閾値を個別で同時設定可能な$\SI{10}{bit}$ Digital Analog Converter (DAC) threshold
@@ -230,9 +230,9 @@ ILDのSiW-ECALの吸収層ではPFAの要件を満たすために、相互作用
    \label{metal}
 \end{table}
 \subsection{技術プロトタイプ}
-SiW-ECALの技術プロトタイプとして、図\ref{shortslab}のような構造が考えられている。図\ref{shortslab}は、1層の検出器 (Slab) の一部として作製されたShort slabである。図の上から構造体として炭素繊維強化プラスチック (CFRP) の板があり、その下に読み出し基板（FEV）やASICの制御基板があり、基板下にはセンサーに接触し電荷を印加する導電性シートがあり、さらにカーボンの板で挟まれている。1層あたり、FEVにはPCB上にSKIROC2Aが16チップ実装されており、裏面にはシリコンパッドセンサー4枚が導電性接着剤で接着されている。また、ASICはFPGAを通して制御されており、さらに図\ref{core}のに示すモジュールを通して、複数のSlabからの信号を同時に読み出している。
+SiW-ECALの技術プロトタイプとして、図\ref{shortslab}のような構造が考えられている。図\ref{shortslab}は、1層の検出器 (Slab) の一部として作製されたShort slabである。図の上から構造体として炭素繊維強化プラスチック (CFRP) の板があり、その下に読み出し基板（FEV; フロントエンドボード）やASICの制御基板があり、基板裏にはセンサーを導電性接着剤を用いて接着しており、その下にフレキシブル基板を挟み、再びCFRPの板で挟まれている。1層あたり、FEVにはPCB上にSKIROC2Aが16チップ実装されており、裏面にはシリコンパッドセンサー4枚が導電性接着剤で接着されている。また、ASICはFPGAを通して制御されており、さらに図\ref{core}のに示すモジュールを通して、複数のSlabからの信号を同時に読み出している。
 
-読み出し基板には、大きく分けてFEVとCOBの2つの案がある。（図\ref{fevcob}）FEVはPCBの裏面に4枚のシリコンセンサーを導電性接着剤で接着しており、その内側にフレキシブル基板を接着することでシリコンセンサーへの電圧供給を行う。またPCB表面にはASICが16chip実装されており、センサーからの信号をデジタル変換している。FEVにはFEV7から13までのバージョンがあり、内部配線や外部接続の面でアップデートが行われている。一方でCOB (Chip On Board) では、ASICが窪みにワイヤーボンディングされており、これによって読み出し基板がFEVよりも薄いコンパクトな構造になっている点が特徴である。しかし同時に、FEVと比較してノイズの影響を受けやすいなど欠点も抱えている。
+読み出し基板には、図\ref{fevcob}のようにASICの実装手法によって大きく分けてBGAとCOBの2つの案が挙がっている。（以下ではFEVと表記するものはBGAによる実装を指す。）FEVはPCBの裏面に4枚のシリコンセンサーを導電性接着剤で接着しており、その内側にフレキシブル基板を接着することでシリコンセンサーへの電圧供給を行う。またPCB表面にはASICが16chip実装されており、センサーからの信号をデジタル変換している。FEVにはFEV7から13までのバージョンがあり、内部配線や外部接続の面でアップデートが行われている。一方でCOB (Chip On Board) では、ASICが窪みにワイヤーボンディングされており、これによって読み出し基板がFEVよりも薄いコンパクトな構造になっている点が特徴である。しかし同時に、FEVと比較してノイズの影響を受けやすいなど欠点も抱えている。
 
 これら技術プロトタイプの開発は、フランスと日本を中心にCALICEグループによって国際協力で行われている。CALICE (Calorimeter for Linear Collider Experiment) はILCに向け、カロリメータの共同開発を目的として結成された国際コラボレーションであり、九州大学のグループもこの一員である。また、モジュールの生産・組み立ては国内においても可能となっている。
 \begin{figure}[h]
@@ -243,19 +243,19 @@ SiW-ECALの技術プロトタイプとして、図\ref{shortslab}のような構
  		\label{shortslab}
 	\end{center}
  \end{figure}
- \begin{figure}[ht]
-	\begin{center}
-	\includegraphics[keepaspectratio, scale=0.3]
- 	{Figure/Siwecal/fevcob.png}
- 		\caption[FEV13, COB]{(左) FEV13 (右) COB}
- 		\label{fevcob}
-	\end{center}
- \end{figure}
- \begin{figure}[ht]
+  \begin{figure}[ht]
 	\begin{center}
 	\includegraphics[keepaspectratio, scale=0.7]
  	{Figure/Siwecal/core.png}
  		\caption{多層読み出しのためのCOREモジュール}
  		\label{core}
+	\end{center}
+ \end{figure}
+ \begin{figure}[ht]
+	\begin{center}
+	\includegraphics[keepaspectratio, scale=0.3]
+ 	{Figure/Siwecal/fevcob.png}
+ 		\caption[FEV13(BGA), COB]{(左) FEV13 (右) COB}
+ 		\label{fevcob}
 	\end{center}
  \end{figure}
