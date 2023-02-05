@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  6 FEB 2023 07:12
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.5.16)  6 FEB 2023 07:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1047,9 +1047,9 @@ File: Figure/Flavortagging/gnnoutput.png Graphic file (type bmp)
  [83]
 File: Figure/Flavortagging/gnncm.png Graphic file (type bmp)
 <Figure/Flavortagging/gnncm.png>
+ [84]
 File: Figure/Flavortagging/gnneff_b.png Graphic file (type bmp)
 <Figure/Flavortagging/gnneff_b.png>
- [84]
 File: Figure/Flavortagging/gnneff_c.png Graphic file (type bmp)
 <Figure/Flavortagging/gnneff_c.png>
  [85]) [86]
@@ -1116,12 +1116,12 @@ Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
 (rerunfilecheck)             Checksum: F7D1A3AAB43D73DA400A6772D3A9A83F;7441.
  ) 
 Here is how much of TeX's memory you used:
- 17205 strings out of 478724
- 333586 string characters out of 5858392
+ 17206 strings out of 478724
+ 333594 string characters out of 5858392
  595880 words of memory out of 5000000
- 35249 multiletter control sequences out of 15000+600000
+ 35250 multiletter control sequences out of 15000+600000
  523962 words of font info for 138 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,16n,79p,2277b,1092s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.dvi (97 pages, 407284 bytes).
+Output written on MasterThesis.dvi (97 pages, 407240 bytes).
