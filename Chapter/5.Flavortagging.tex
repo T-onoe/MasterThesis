@@ -126,7 +126,11 @@ LCFIPlusのフレームワークでは、フレーバー識別は崩壊点検出
  \hline
  中間層のノード数 & $32 \sim 1024$\\
  ドロップアウト & $0.1 \sim 0.9$\\
+ LeakyReLU & $0.00001 \sim 0.1$\\
  学習率 & $0.00001 \sim 0.1$\\
+ $\beta_1$ & $0.5 \sim 0.9$\\ 
+ $\beta_2$ & $0.5 \sim 0.9$\\ 
+ eps & $10^{-9} \sim 10^{-7}$\\
  weight decay & $0.000001 \sim 0.1$\\
   \hline
  \end{tabular}
@@ -329,7 +333,7 @@ GATの学習は\ref{GATexplain}節で述べた通りであり、本アルゴリ�
 L_{\mathrm{total}} = w_{\mathrm{node}} L_{\mathrm{node}} + w_{\mathrm{edge}} L_{\mathrm{edge}} +  L_{\mathrm{graph}}
 \end{align}
 $L$はそれぞれの損失関数を、$w_\mathrm{{node}}とw_\mathrm{{edge}}$はそれぞれノード、エッジの損失関数にかける重みを表す。グラフ分類と同程度の損失関数に収束するために、ノード識別とリンク予測における損失関数に重み付けを行った。\\
-\ また、学習におけるハイパーパラメータにはベイズ最適化を行った上で、表 5.9%\ref{gnnsetting}
+\ また、学習におけるハイパーパラメータにはベイズ最適化を行った上で、表 5.10%\ref{gnnsetting}
 に挙げるものを用いた。最適化アルゴリズムには、Adamに徐々に学習率を上げるWarmup機構を加えたRAdamによる学習が最も精度が高くなった。
 \begin{table}[H]
  \centering
@@ -413,7 +417,7 @@ $L$はそれぞれの損失関数を、$w_\mathrm{{node}}とw_\mathrm{{edge}}$�
  		\label{gnnoutput}
 	\end{center}
 \end{figure}
-続いて、ノード、リンク、グラフ分類における混合行列を図\ref{gnncm}に示す。ノード、リンクの学習精度は十分良いと言える制度ではなく、一方でグラフの識別においてはディープニューラルネットワークでの実装に匹敵する精度が得られた。ノードの混合行列ではPVとSVBBと識別する割合が高く、一方でTVCC、Othersについて分類が出来ずPVに分類されてしまう傾向にあった。\\
+続いて、ノード、リンク、グラフ分類における混合行列を図\ref{gnncm}に示す。ノード、リンクの学習精度は十分良いと言える制度ではなく、一方でグラフの識別においてはディープニューラルネットワークでの実装に匹敵する精度が得られた。ノードの混合行列ではPVとSVBBと識別する割合が高く、一方でTVCC、Othersについて分類が出来ずSVBBに分類されてしまう傾向にあった。\\
 \begin{figure}[H]
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.3]

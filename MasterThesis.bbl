@@ -1,14 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{gws}
-S.~L. Glashow,
-\newblock Partial-symmetries of weak interactions,
-\newblock Nuclear Physics  (1960).
-
-\bibitem{gaugehiggs}
-藤井恵介,
-\newblock {高エネルギー加速器セミナー OHO: ILCの物理}.
-
 \bibitem{higgspotential}
 S.~D. Bass, A.~D. Roeck, and M.~Kado,
 \newblock The higgs boson implications and prospects for future discoveries,
@@ -22,7 +13,16 @@ H.~Baer \emph{et~al.},
 \bibitem{decaybsm}
 K.~Fujii \emph{et~al.},
 \newblock Physics case for the international linear collider,
-\newblock (2015).
+\newblock arXiv:1506.05992  (2015).
+
+\bibitem{gws}
+S.~L. Glashow,
+\newblock Partial-symmetries of weak interactions,
+\newblock Nuclear Physics  (1960).
+
+\bibitem{gaugehiggs}
+藤井恵介,
+\newblock {高エネルギー加速器セミナー OHO'14: ILCの物理}.
 
 \bibitem{pfa}
 M.~A. Thomson,
@@ -50,13 +50,13 @@ J.~Therhaag,
 \newblock PoS ICHEP2010  (2010).
 
 \bibitem{blue}
-ブ. マーティン and グレアム・ショー,
+ブライアン・R・マーティン and グレアム・ショー,
 \newblock {\em マーティン/ショー 素粒子物理学 原著第4版} (講談社, 2020).
 
 \bibitem{ecalsoft}
 A.~Irles,
 \newblock Siwecal-tb-analysis,
-\newblock (2019).
+\newblock https://github.com/SiWECAL-TestBeam/SiWECAL-TB-analysis  (2019).
 
 \bibitem{perceptron}
 R.~Frank,
@@ -66,24 +66,28 @@ R.~Frank,
 
 \bibitem{dnnbook}
 斎藤康毅,
-\newblock {\em ゼロから作るDeepLearning}volume~1 (オライリージャパン, 2016).
+\newblock {\em ゼロから作るDeepLearning 1} (オライリージャパン, 2016).
+
+\bibitem{adam}
+D.~P. Kingma and J.~L. Ba,
+\newblock Adam: A method for stochastic optimization,
+\newblock conference paper at ICLR 2015 (arXiv:1412.6980v9)  (2015).
 
 \bibitem{radam}
 L.~Liu \emph{et~al.},
 \newblock On the variance of the adaptive learning rate and beyond,
-\newblock ICLR 2020  (2020).
+\newblock ICLR 2020 (arXiv:1908.03265)  (2020).
 
 \bibitem{init}
 X.~Glorot and Y.~Bengio,
-\newblock Understanding the difficulty of training deep feedforward neural
-  networks,
-\newblock Proceedings of the Thirteenth International Conference on Artificial
-  Intelligence and Statistics  (2010).
+\newblock {\em Understanding the difficulty of training deep feedforward neural
+  networks} (International Conference on Artificial Intelligence and
+  Statistics, 2010).
 
 \bibitem{gnnreview}
 J.~Zhou \emph{et~al.},
 \newblock Graph neural networks: A review of methods and application,
-\newblock KeAi  (2020).
+\newblock Published at AI Open 2021 (arXiv:1812.08434)  (2020).
 
 \bibitem{gnnbook}
 村田剛志,
@@ -93,12 +97,12 @@ J.~Zhou \emph{et~al.},
 \bibitem{graphsage}
 W.~L. Hamilton, R.~Ying, and J.~Leskovec,
 \newblock Inductive representation learning on large graphs,
-\newblock NIPS  (2017).
+\newblock NIPS (arXiv:1706.02216)  (2017).
 
 \bibitem{gat}
 P.~Veli{\v c}kovi{\'c} \emph{et~al.},
 \newblock Graph attention networks,
-\newblock ICLR 2018 , 12 (2017).
+\newblock ICLR 2018 (arXiv:1710.10903v3) , 12 (2017).
 
 \bibitem{bayesian}
 P.~I. Frazier,
