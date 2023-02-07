@@ -31,11 +31,11 @@ ILCにおいて検出器を通過する荷電粒子には、飛跡を記述す�
 \end{align}
 
 \subsection{飛跡パラメータ}
-ILCで発生する荷電粒子は一定の磁場の影響を受け、螺旋軌道を描く。磁場はz軸に並行な方向に一様にかかるものとする。この時、荷電粒子の飛跡はxy平面への射影における円となり、z軸方向の変位は弧の長さsの線形関数となる。
+ILCで発生する荷電粒子は一定の磁場の影響を受け、螺旋軌道を描く。磁場はz軸に並行な方向に一様にかかるものとする。この時、荷電粒子の飛跡は$xy$平面への射影における円となり、z軸方向の変位は弧の長さsの線形関数となる。
 
-荷電粒子は運動の基準点$\mathbf{P}^r = \left( P_x^r, P_y^r, P_z^r \right)$と飛跡パラメータ$\left( \Omega, {\phi}_0, d_0, z_0, \tan \lambda \right)$によって定義される。また、以下の定義において$\mathbf{P}^0$はxy平面上の基準点への最近接点を表す。
-\subsubsection{xy平面}
-xy平面( 図\ref{xy} )では荷電粒子の移動は、以下のように定義される。\cite{lcio}
+荷電粒子は運動の基準点$\mathbf{P}^r = \left( P_x^r, P_y^r, P_z^r \right)$と飛跡パラメータ$\left( \Omega, {\phi}_0, d_0, z_0, \tan \lambda \right)$によって定義される。また、以下の定義において$\mathbf{P}^0$は$xy$平面上の基準点への最近接点を表す。
+\subsubsection{$xy$平面}
+$xy$平面( 図\ref{xy} )では荷電粒子の移動は、以下のように定義される。\cite{lcio}
 \begin{itemize}
 \item ${\phi}_0$は運動量の$P_0$における方位角を表す。\\
 \item $\Omega$は飛跡の曲率を表す。\\
@@ -43,7 +43,7 @@ xy平面( 図\ref{xy} )では荷電粒子の移動は、以下のように定義
 |\Omega | = \frac{1}{R}
 \end{align}
 ここで、Rは飛跡の曲率半径を表す。\\
-\item $d_0$はxy平面のインパクトパラメータを表す。$\mathbf{d} = (d_x, d_y)$を任意の点$\mathbf{P}^r$から$\mathbf{P}^0$までのベクトルとする。\\
+\item $d_0$は$xy$平面のインパクトパラメータを表す。$\mathbf{d} = (d_x, d_y)$を任意の点$\mathbf{P}^r$から$\mathbf{P}^0$までのベクトルとする。\\
 \begin{align}
 \mathbf{d} = \mathbf{P}^0 - \mathbf{P}^r
 \end{align}
@@ -51,9 +51,9 @@ xy平面( 図\ref{xy} )では荷電粒子の移動は、以下のように定義
 \begin{align}
 d_0 = \mathbf{n}_{pca} \cdot \mathbf{d} = - ( P_x^r - P_x^0 ) \sin {\phi}_0 +  ( P_y^r - P_y^0 ) \cos {\phi}_0
 \end{align}
-$|\mathbf{n}_{pca}|$であるため、$|d_0|$はxy平面における$\mathbf{P}^r$と$\mathbf{P}^0$の距離を表す。
+$|\mathbf{n}_{pca}|$であるため、$|d_0|$は$xy$平面における$\mathbf{P}^r$と$\mathbf{P}^0$の距離を表す。
 \end{itemize}
-xy平面における円の中心点$\mathbf{P}^c$は、通常$\mathbf{P}^r$と異なる点を取ることが多く、軌道上の任意の点における運動量を$\mathbf{P} = \left( P_x, P_y, P_z \right)$とすると、$\mathbf{P}^c$は以下のように計算される。
+$xy$平面における円の中心点$\mathbf{P}^c$は、通常$\mathbf{P}^r$と異なる点を取ることが多く、軌道上の任意の点における運動量を$\mathbf{P} = \left( P_x, P_y, P_z \right)$とすると、$\mathbf{P}^c$は以下のように計算される。
 \begin{align}
 P_x^c &= P_x + \frac{\sin \phi}{\Omega}\\
 P_y^c &= P_y + \frac{\cos \phi}{\Omega}\\
@@ -62,15 +62,15 @@ P_y^c &= P_y + \frac{\cos \phi}{\Omega}\\
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.4]
  	{Figure/Appendix/xy.png}
- 		\caption{飛跡の螺旋軌道をxy平面へ射影した図。軌道は中心点$\mathbf{P}^c$、半径Rをもつ円弧で表される。また、全ての飛跡パラメータは基準点$\mathbf{P}^r$を中心に与えられる。}
+ 		\caption[飛跡の$xy$平面への射影]{飛跡の螺旋軌道を$xy$平面へ射影した図。軌道は中心点$\mathbf{P}^c$、半径Rをもつ円弧で表される。また、全ての飛跡パラメータは基準点$\mathbf{P}^r$を中心に与えられる。}
  		\label{xy}
 	\end{center}
 \end{figure}
 
-\subsubsection{sz平面}
-sz平面( 図\ref{sz} )において、飛跡は直線に沿って移動し、2つのパラメータ$(\tan \lambda, z_0)$によって表される。
+\subsubsection{$sz$平面}
+$sz$平面( 図\ref{sz} )において、飛跡は直線に沿って移動し、2つのパラメータ$(\tan \lambda, z_0)$によって表される。
 \begin{itemize}
-\item $\tan \lambda$はsz平面における直線の傾き$dz/ds$を表し、運動量ベクトル $\mathbf{p} = \left( p_x, p_y, p_z \right)$に対して以下のように計算される。
+\item $\tan \lambda$は$sz$平面における直線の傾き$dz/ds$を表し、運動量ベクトル $\mathbf{p} = \left( p_x, p_y, p_z \right)$に対して以下のように計算される。
 \begin{align}
 \tan \lambda =\frac{p_z}{\sqrt{p_x^2 + p_y^2}} = \cot \theta
 \end{align}
@@ -79,7 +79,7 @@ sz平面( 図\ref{sz} )において、飛跡は直線に沿って移動し、2�
 z_0 = P_z^0 - P_z^r
 \end{align}
 \end{itemize}
-これらを踏まえ、飛跡のsz平面射影の軌跡zは、xy平面における飛跡の経路積分sを用いて次のように表される。
+これらを踏まえ、飛跡の$sz$平面射影の軌跡zは、$xy$平面における飛跡の経路積分sを用いて次のように表される。
 \begin{align}
 z = ( z_0 + P_z^r) + s \cdot \tan \lambda
 \end{align}
@@ -87,7 +87,7 @@ z = ( z_0 + P_z^r) + s \cdot \tan \lambda
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.4]
  	{Figure/Appendix/sz.png}
- 		\caption{sz平面}
+ 		\caption{飛跡のsz平面への射影}
  		\label{sz}
 	\end{center}
 \end{figure}

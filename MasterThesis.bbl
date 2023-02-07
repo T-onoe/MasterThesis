@@ -29,6 +29,11 @@ M.~A. Thomson,
 \newblock Particle flow calorimetry and the pandora pfa algorithm.,
 \newblock Nucl. Instrum. Meth. {\bf A611} (2009).
 
+\bibitem{pandorapfa}
+J.~S. Marshall and M.~A. Thomson,
+\newblock Pandora particle flow algorithm,
+\newblock arXiv:1308.4537v1  (2013).
+
 \bibitem{lcfiplus}
 T.~Suehara and T.~Tanabe,
 \newblock Lcfiplus: A framework for jet analysis in linear collider studies,
