@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {1.3.5}その他の新物理}{21}{subsection.1.3.5}%
 \contentsline {section}{\numberline {1.4}ILCの検出器}{21}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}ILDで検出器可能な粒子群}{21}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Particle Flow Algorithm; PFA}{22}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}Particle Flow Algorithm (PFA)}{22}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}International Large Detector: ILD}{23}{subsection.1.4.3}%
 \contentsline {subsubsection}{崩壊点検出器}{23}{section*.17}%
 \contentsline {subsubsection}{中央飛跡検出器}{24}{section*.19}%
@@ -19,9 +19,10 @@
 \contentsline {subsubsection}{ミューオン検出器}{25}{section*.21}%
 \contentsline {section}{\numberline {1.5}ILCのソフトウェア}{25}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}イベントジェネレータと検出器シミュレーション}{25}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}事象再構成}{25}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}事象再構成}{26}{subsection.1.5.2}%
 \contentsline {subsubsection}{飛跡再構成}{26}{section*.23}%
-\contentsline {subsubsection}{崩壊点検出}{26}{section*.24}%
+\contentsline {subsection}{\numberline {1.5.3}PFA}{26}{subsection.1.5.3}%
+\contentsline {subsubsection}{崩壊点検出}{27}{section*.24}%
 \contentsline {subsubsection}{ジェットクラスタリング}{27}{section*.25}%
 \contentsline {subsubsection}{フレーバー識別}{27}{section*.26}%
 \contentsline {section}{\numberline {1.6}本研究の目的}{28}{section.1.6}%
@@ -80,17 +81,17 @@
 \contentsline {subsection}{\numberline {5.2.2}入力変数とネットワークアーキテクチャ}{71}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}ハイパーパラメータの最適化}{72}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}学習評価}{74}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}グラフニューラルネットワークによる実装}{77}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}実装目的}{77}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.3}グラフニューラルネットワークによる実装}{78}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}実装目的}{78}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}飛跡によるグラフデータセット}{78}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ネットワークアーキテクチャ}{80}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}ハイパーパラメータの最適化}{82}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}学習評価}{84}{subsection.5.3.5}%
-\contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{88}{chapter.6}%
-\contentsline {chapter}{\numberline {付録A}AppendixA}{91}{appendix.A}%
-\contentsline {section}{\numberline {A.1}飛跡のパラメータ}{91}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}LDC座標系}{91}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}飛跡パラメータ}{91}{subsection.A.1.2}%
-\contentsline {subsubsection}{$xy$平面}{92}{section*.105}%
-\contentsline {subsubsection}{$sz$平面}{93}{section*.107}%
-\contentsline {chapter}{参考文献}{97}{appendix*.110}%
+\contentsline {subsection}{\numberline {5.3.3}ネットワークアーキテクチャ}{81}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}ハイパーパラメータの最適化}{83}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}学習評価}{85}{subsection.5.3.5}%
+\contentsline {chapter}{\numberline {第6章}まとめと今後の展望}{89}{chapter.6}%
+\contentsline {chapter}{\numberline {付録A}AppendixA}{93}{appendix.A}%
+\contentsline {section}{\numberline {A.1}飛跡のパラメータ}{93}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}LDC座標系}{93}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}飛跡パラメータ}{93}{subsection.A.1.2}%
+\contentsline {subsubsection}{$xy$平面}{94}{section*.105}%
+\contentsline {subsubsection}{$sz$平面}{95}{section*.107}%
+\contentsline {chapter}{参考文献}{99}{appendix*.110}%

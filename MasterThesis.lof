@@ -10,16 +10,16 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces ヒッグス自己結合}}{20}{figure.caption.12}%
 \contentsline {figure}{\numberline {1.10}{\ignorespaces 階層性問題のフェルミオンループ}}{21}{figure.caption.13}%
 \contentsline {figure}{\numberline {1.11}{\ignorespaces ILDとSiDの全体図}}{22}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\relax }}{23}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\relax }}{24}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\relax }}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ILDの断面図\nobreakspace {}\cite {tdr2}\relax }}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces ILD崩壊点検出器の構造\nobreakspace {}\cite {tdr2}\relax }}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces ILCにおけるシミュレーションと事象再構成、物理解析の流れとソフトウェア\cite {ilcsoftslide}\relax }}{26}{figure.caption.22}%
 \contentsline {figure}{\numberline {1.15}{\ignorespaces ジェット崩壊の様子}}{28}{figure.caption.27}%
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 平均エネルギー損失と入射粒子速度の関係}}{32}{figure.caption.30}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 光子と物質の相互作用\relax }}{33}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 光子と鉛の相互作用における断面積と光子のエネルギー}}{35}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces ILDおよびECALの全体図}}{37}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\relax }}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces SiW-ECALの構造\nobreakspace {}\cite {tdr2}\relax }}{37}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces シリコンパッドセンサー}}{37}{figure.caption.35}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces SKIROC2Aのアナログ部の回路図\relax }}{39}{figure.caption.36}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces short slabの構造\relax }}{41}{figure.caption.38}%
@@ -39,7 +39,7 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Triggerのマップ}}{52}{figure.caption.54}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Retriggeirngのマップ}}{53}{figure.caption.55}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces パーセプトロン\relax }}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces パーセプトロン\cite {dnnbook}\relax }}{54}{figure.caption.56}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 多層パーセプトロン（ニューラルネットワーク）\relax }}{55}{figure.caption.57}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 活性化関数のグラフ}}{57}{figure.caption.59}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces ディープニューラルネットワーク\relax }}{63}{figure.caption.67}%
@@ -49,23 +49,23 @@
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces フレーバー識別のためのディープニューラルネットワークの概略図\relax }}{72}{figure.caption.75}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 各試行における評価関数の値}}{73}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces RAdamの学習に対するパラメータによる評価関数の2次元ヒストグラム。\relax }}{74}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 各パラメータの重要度\relax }}{74}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces RAdamの学習に対するパラメータによる評価関数の2次元ヒストグラム。横軸が$\beta _1$の値を、縦軸が$\beta _2$の値を、3次元方向が評価関数の値を表している。\relax }}{74}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 各パラメータの重要度。表5.4 に挙げたパラメータの重要度をそれぞれ示している。\relax }}{74}{figure.caption.80}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces 学習経過における損失と精度}}{75}{figure.caption.81}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces ディープニューラルネットワークの学習における混合行列}}{75}{figure.caption.82}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces LCFIPlusとDNNのb-tagに関する比較}}{76}{figure.caption.83}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces LCFIPlusとDNNのc-tagに関する比較}}{77}{figure.caption.84}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces グラフデータの例}}{79}{figure.caption.86}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces ノードラベル毎のデータ数\relax }}{80}{figure.caption.91}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces フレーバー識別のためのグラフデータを用いたネットワークの概略図\relax }}{81}{figure.caption.92}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 各試行における評価関数の値}}{83}{figure.caption.95}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces 評価関数の2次元ヒストグラム}}{84}{figure.caption.96}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces 各パラメータの重要度}}{84}{figure.caption.97}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces 学習経過における損失と精度}}{85}{figure.caption.98}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces グラフ学習結果の混合行列}}{85}{figure.caption.99}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces LCFIPlusとGATのb-tagに関する比較}}{86}{figure.caption.100}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces LCFIPlusとGATのc-tagに関する比較}}{87}{figure.caption.101}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces フレーバー識別のためのグラフデータを用いたネットワークの概略図\relax }}{82}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 各試行における評価関数の値}}{84}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 評価関数の2次元ヒストグラム}}{85}{figure.caption.96}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 各パラメータの重要度}}{85}{figure.caption.97}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 学習経過における損失と精度}}{86}{figure.caption.98}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces グラフ学習結果の混合行列}}{86}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces LCFIPlusとGATのb-tagに関する比較}}{87}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces LCFIPlusとGATのc-tagに関する比較}}{88}{figure.caption.101}%
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces 飛跡の$xy$平面への射影}}{93}{figure.caption.106}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces 飛跡のsz平面への射影\relax }}{94}{figure.caption.108}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 飛跡の$xy$平面への射影}}{95}{figure.caption.106}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 飛跡のsz平面への射影\relax }}{96}{figure.caption.108}%

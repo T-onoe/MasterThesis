@@ -12,7 +12,7 @@
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.15]
  	{Figure/Deeplearning/perceptron.png}
- 		\caption{パーセプトロン}
+ 		\caption{パーセプトロン\cite{dnnbook}}
  		\label{perceptron}
 	\end{center}
 \end{figure}
@@ -122,7 +122,7 @@ y_n = h(w_1^1 x_1^1 + w_2^1 x_2^1 + w_3^1 x_3^1 + \cdots + w_n^1 x_n^1 + b^1)
   \label{acti}
 \end{figure}
 \subsubsection{出力層の設計}
-ニューラルネットワークで扱える問題は、主に回帰問題と分類問題に分けられる。それぞれの問題によって出力層の設計が異なり、回帰問題においては恒等関数が、分類問題においてはソフトマックス関数が用いられる。恒等関数では入力された値をそのまま出力する。ソフトマックス関数は以下の式\ref{softmax}のように、0から1までの値を出力する関数であり、それぞれのカテゴリに分類される確率を表す。ここで$y_k$はニューラルネットワークの出力、$x_k$は出力層へ入ってくる信号を表す。また、出力層のノード数は問題に合わせて適宜調整する必要があり、分類問題であればカテゴリ数だけノードを設計する必要がある。
+ニューラルネットワークで扱える問題は、主に回帰問題と分類問題に分けられる。それぞれの問題によって出力層の設計が異なり、回帰問題においては恒等関数が、分類問題においては主にソフトマックス関数が用いられる。恒等関数では入力された値をそのまま出力する。ソフトマックス関数は以下の式\ref{softmax}のように、0から1までの値を出力する関数であり、それぞれのカテゴリに分類される確率を表す。ここで$y_k$はニューラルネットワークの出力、$x_k$は出力層へ入ってくる信号を表す。また、出力層のノード数は問題に合わせて適宜調整する必要があり、分類問題であればカテゴリ数だけノードを設計する必要がある。
 \begin{align}
 \label{softmax}
 y_k = \frac{\exp(x_k)}{\sum_{i=1}^n \exp(x_i)}
@@ -246,7 +246,7 @@ GNNのアーキテクチャにおいて、グラフは集合$\mathcal{G} = (\mat
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.25]
  	{Figure/Deeplearning/messagepassing.png}
- 		\caption[メッセージパッシング]{ (左) 4つのノードを持つ全結合グラフニューラルネットワーク。$h_i$はノード表現を表す。 (右) メッセージパッシングの処理。}
+ 		\caption[メッセージパッシング]{ (左) 4つのノードを持つ全結合グラフニューラルネットワーク。$h_i$はノード表現を表す。 (右) メッセージパッシングの処理。~\cite{gnnreview}}
  		\label{messagepass}
 	\end{center}
 \end{figure}
@@ -282,7 +282,7 @@ $\bm{g} \star \bm{x}$は畳み込み演算を、$\bm{U}^T \bm{g}$はスペクト
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.3]
  	{Figure/Deeplearning/sage.png}
- 		\caption[GraphSAGE]{GraphSAGEにおける処理(1. サンプリング, 2. 隣接からの集約, 3. 学習結果による推論)}
+ 		\caption[GraphSAGE]{GraphSAGEにおける処理(1. サンプリング, 2. 隣接からの集約, 3. 学習結果による推論)~\cite{graphsage}}
  		\label{sage}
 	\end{center}
 \end{figure}
@@ -303,7 +303,7 @@ $\bm{g} \star \bm{x}$は畳み込み演算を、$\bm{U}^T \bm{g}$はスペクト
 	\begin{center}
  \includegraphics[keepaspectratio, scale=0.25]
  	{Figure/Deeplearning/gat.png}
- 		\caption[Graph Attention Network]{ (左) 重みベクトル$\bm{a}$を用いたAttention処理。 (右) 1つのノード$\bm{h}_1$に対する隣接ノード$\bm{h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\bm{h'}_1$}
+ 		\caption[Graph Attention Network]{ (左) 重みベクトル$\bm{a}$を用いたAttention処理。 (右) 1つのノード$\bm{h}_1$に対する隣接ノード$\bm{h}_{\neq 1}$のAttentionと、ノード特徴量の更新$\bm{h'}_1$~\cite{gat}}
 		\label{gatt}
 	\end{center}
 \end{figure}
